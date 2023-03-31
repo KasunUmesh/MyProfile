@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  z-index: 0;
+}
+
+div {
+  position: sticky;
+  top: 0;
+  color: white;
+  padding: 10px;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+section p {
+  position: absolute;
+  font-size: 5em;
+  font-weight: 500;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  z-index: -2;
+}
+
+body > section:nth-child(1) {
+  background-color: white;
+}
+
+body > section:nth-child(1) > div {
+  background-color: rgb(255, 53, 32);
+}
+
+body > section:nth-child(2) {
+  background-color: rgb(94, 182, 255);
+}
+
+body > section:nth-child(2) > div {
+  background-color: rgb(0, 71, 130);
+}
+
+body > section:nth-child(3) {
+  background-color: rgb(94, 89, 82);
+}
+
+body > section:nth-child(3) > div {
+  background-color: rgb(43, 40, 38);
+}
+
+body > section:nth-child(4) {
+  background-color: rgb(242, 61, 42);
+}
+
+body > section:nth-child(4) > div {
+  background-color: rgb(125, 50, 43);
+}

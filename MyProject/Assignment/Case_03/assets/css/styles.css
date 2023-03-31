@@ -1,0 +1,76 @@
+body > section {
+    position: relative;
+    height: 300vh;
+}
+
+.Circle {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+#Circle_01 {
+    border: 19px solid gray;
+    width: 260px;
+    height: 260px;
+    border-radius: 260px;
+}
+
+#Circle_02 {
+    border: 19px solid red;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+}
+
+#purple {
+    position: absolute;
+    background-color: purple;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    top: 359px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body > section > div {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body > section > div > p {
+    margin-top: 100px;
+}
+
+#blue {
+    position: absolute;
+    background-color: blue;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#pink {
+    position: absolute;
+    background-color: pink;
+    width: 230px;
+    height: 230px;
+    border-radius: 230px;
+    bottom: 358px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

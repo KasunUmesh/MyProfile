@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Web Layout</title>
+    <meta content="IJSE, CMJD, " name="Keywords" />
+    <link href="assets/css/normalize.css" rel="stylesheet" />
+    <link href="assets/css/fonts/css/all.css" rel="stylesheet" />
+
+    <style>
+      header {
+        position: relative;
+        height: 80px;
+        box-shadow: 0px 5px 10px -3px #c9c3c3;
+      }
+
+      header > img {
+        width: 225px;
+        position: relative;
+        bottom: 28px;
+        left: 10px;
+      }
+
+      header > ul {
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        height: 40px;
+        font-size: 23px;
+        list-style: none;
+      }
+
+      header > ul > li {
+        padding: 0 10px 0 10px;
+        display: inline-block;
+      }
+
+      header > ul > li:hover {
+        cursor: pointer;
+        color: red;
+      }
+
+      /*Main Content*/
+
+      body > main {
+        position: relative;
+      }
+
+      main > nav {
+        width: 270px;
+        background-color: #440d9a;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        color: white;
+      }
+
+      main > nav > ul {
+        list-style: none;
+        font-size: 25px;
+        margin-top: 39px;
+      }
+
+      main > nav > ul > li {
+        padding-bottom: 30px;
+      }
+
+      main > nav > ul > li > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-left: 13px;
+      }
+
+      main > nav > ul > li > a:hover {
+        color: orange;
+      }
+
+      main > section {
+        margin-left: 270px;
+        padding: 10px;
+        min-height: 569px;
+      }
+
+      main > section > section {
+        height: 300px;
+        position: relative;
+      }
+
+      main > section > section > div {
+        position: absolute;
+        height: 100%;
+        width: calc(100% / 3);
+      }
+
+      main > section > section > div:nth-child(1) {
+        left: 0;
+        background-image: url("assets/images/one.jpg");
+        background-size: cover;
+      }
+
+      main > section > section > div:nth-child(2) {
+        border-left: 5px solid white;
+        left: calc(100% / 3);
+        background-image: url("assets/images/two.jpg");
+        background-size: cover;
+      }
+
+      main > section > section > div:nth-child(3) {
+        border-left: 5px solid white;
+        left: calc((100% / 3) * 2);
+        background-image: url("assets/images/three.jpg");
+        background-size: cover;
+      }
+
+      /*footer content*/
+      body > footer {
+        height: 60px;
+        background-color: #585151;
+      }
+
+      body > footer > p {
+        margin-top: 0;
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img alt="" src="assets/images/ijse.png" />
+
+      <ul>
+        <li>Home</li>
+        <li>Service</li>
+        <li>Contact</li>
+        <li>About Us</li>
+      </ul>
+    </header>
+
+    <main>
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i><a href="#">Home</a></li>
+          <li><i class="fas fa-globe-africa"></i><a href="#">Service</a></li>
+          <li><i class="fas fa-id-badge"></i><a href="#">Contact</a></li>
+          <li><i class="fas fa-info-circle"></i><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <section>
+          <div></div>
+          <div></div>
+          <div></div>
+        </section>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          delectus distinctio eum possimus quam, quod vero voluptas?
+          Accusantium, aliquid dicta exercitationem illum iure magnam maiores
+          molestias nulla quas sapiente voluptate!
+        </p>
+        <p>
+          Adipisci, aliquam amet consectetur corporis, eligendi eos eveniet ex
+          facere fugiat ipsam magni placeat soluta, tempore. In necessitatibus
+          repellat suscipit! Accusantium at atque eligendi minima quaerat qui
+          veritatis voluptate voluptatibus.
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+        <p>
+          Accusamus animi at atque delectus fugiat itaque quae quaerat similique
+          tenetur voluptatem. At consequuntur error fuga ipsum laboriosam omnis
+          optio placeat provident similique, vel? A accusantium ad eligendi
+          necessitatibus perferendis!
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p><small>Developed By Kasun Umesh</small></p>
+    </footer>
+  </body>
+</html>

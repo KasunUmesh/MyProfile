@@ -1,0 +1,47 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+
+div:first-child {
+  background-color: red;
+}
+
+div:nth-child(2) {
+  background-color: green;
+}
+div:nth-child(3) {
+  background-color: orangered;
+}
+div:nth-child(4) {
+  background-color: blueviolet;
+}
+div:nth-child(5) {
+  background-color: deeppink;
+}
+div:nth-child(6) {
+  background-color: blue;
+}
+div:nth-child(7) {
+  background-color: brown;
+}
+div:nth-child(8) {
+  background-color: orchid;
+}
+div:nth-child(9) {
+  background-color: darkmagenta;
+}
+div:nth-child(10) {
+  background-color: yellow;
+}
+div:nth-child(11) {
+  background-color: darkcyan;
+}
+div:last-child {
+  background-color: aqua;
+}

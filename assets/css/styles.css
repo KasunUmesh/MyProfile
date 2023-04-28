@@ -747,3 +747,206 @@ span{
 }
 
 /* Education End */
+
+/* Project Section Start */
+
+#project {
+  height: 109vh;
+  background-color: #000a12;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  
+}
+#project > h1 {
+  color: #d35400;
+  font-size: 64px;
+  position: absolute;
+  top: 0px;
+}
+#project > img {
+  position: absolute;
+  bottom: 15px;
+  right: 55px;
+  opacity: 25%;
+}
+#project > section {
+  width: 1660px;
+  height: 815px;
+  top: 38px;
+  margin: 120px;
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  /* border: 1px solid red; */
+}
+#project > section > div {
+  background-color: #010418;
+  width: 522px;
+  height: 385px;
+  position: absolute;
+  opacity: 0.3;
+  /* border: 1px solid red; */
+}
+#project > section > div:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+#project > section > div:nth-child(2) {
+  left: 34%;
+  top: 0;
+}
+#project > section > div:nth-child(3) {
+  right: 0;
+  top: 0;
+}
+#project > section > div:nth-child(4) {
+  left: 0;
+  bottom: 0;
+}
+.imgHover {
+  width: 522px;
+  height: 320px;
+  position: absolute;
+
+  background-color: #000;
+  font-size: 16px;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.imgHover *{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .35s ease;
+  transition: all 0.35s ease;
+}
+
+.imgHover h3 {
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.imgHover::before,
+.imgHover::after{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #000;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #fff;
+  content: '';
+  opacity: 0.9;
+  z-index: 1;
+}
+
+.imgHover::before{
+  -webkit-transform: skew(45deg) translateX(-155%);
+  transform: skew(45deg) translateX(-155%);
+}
+
+.imgHover::after{
+  -webkit-transform: skew(45deg) translateX(155%);
+  transform: skew(45deg) translateX(155%);
+}
+
+.imgHover h3{
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%) scale(0.5);
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 0;
+  -webkit-box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px #000;
+}
+
+.imgHover a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+.imgHover:hover img{
+  opacity: 0.5;
+}
+
+.imgHover:hover::before,
+.imgHover.hover::before{
+  transform: skew(45deg) translateX(-55%);
+  -webkit-transform: skew(45deg) translateX(-55%);
+}
+
+.imgHover:hover::after,
+.imgHover.hover::after{
+  transform: skew(45deg) translateX(55%);
+  -webkit-transform: skew(45deg) translateX(55%);
+}
+
+.imgHover:hover h3,
+.imgHover.hover h3{
+-webkit-transform: translate(-50%, -50%) scale(1);
+transform: translate(-50%, -50%) scale(1);
+opacity: 1;
+}
+
+#proImg div:nth-child(1) {
+  left: 0;
+  top: 0;
+  
+}
+#proImg div:nth-child(2) {
+  left: 34%;
+  top: 0;
+}
+#proImg div:nth-child(3) {
+  right: 0;
+  top: 0;
+}
+#proImg div:nth-child(4) {
+  left: 0;
+  bottom: 60px;
+}
+#proImg div img {
+  width: 522px;
+  height: 320px;
+}
+#projectName h2 {
+  color: #ffffff;
+  font-size: 30px;
+  position: absolute;
+}
+#projectName h2:nth-child(1) {
+  left: 60px;
+  top: 310px;
+}
+#projectName h2:nth-child(2) {
+  top: 310px;
+  left: 630px;
+}
+#projectName h2:nth-child(3) {
+  top: 310px;
+  right: 75px;
+}
+#projectName h2:nth-child(4) {
+  bottom: -15px;
+  left: 75px;
+}
+
+/* Project Section End */

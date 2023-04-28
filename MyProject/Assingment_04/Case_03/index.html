@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Case 03</title>
+    <link href="assest/css/normalize.css" rel="stylesheet" />
+    <style>
+      section {
+        margin-top: 50px;
+        margin-left: 100px;
+        width: 189px;
+        height: 94px;
+        border-radius: 30px;
+        background-color: blue;
+        animation-name: box;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: relative;
+      }
+
+      @keyframes box {
+        0%,
+        25% {
+          left: 0;
+          top: 0;
+        }
+        25% {
+          left: 500px;
+          top: 0;
+          transform: rotate(180deg);
+          background-color: yellow;
+        }
+        50% {
+          left: 500px;
+          top: 400px;
+          transform: rotate(360deg);
+          background-color: red;
+        }
+        75% {
+          left: 0;
+          top: 400px;
+          transform: rotate(540deg);
+          background-color: deeppink;
+        }
+        100% {
+          left: 0;
+          top: 0;
+          transform: rotate(720deg);
+          background-color: orange;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section></section>
+  </body>
+</html>

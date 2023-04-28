@@ -445,3 +445,168 @@ span{
 }
 
 /* Skills End */
+
+/* Services Start */
+
+#services {
+  height: 100vh;
+  background-color: #000a12;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  
+}
+
+#services > div {
+  width: 545px;
+  height: 80px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  opacity: 5%;
+}
+
+#services > h1 {
+  color: #d35400;
+  font-size: 64px;
+  top: -41px;
+  left: 150px;
+  position: absolute;
+}
+
+#services > section {
+  width: 1300px;
+  height: 800px;
+  /* left: 350px; */
+  top: 115px;
+  position: absolute;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+#services > section > div {
+  height: 389px;
+  width: 319px;
+  position: absolute;
+  box-shadow: rgb(0 0 0) 0px 0px 10px 10px;
+  background-color: #ffffff;
+  opacity: 5%;
+}
+#serOne {
+  left: 0;
+}
+#serTwo {
+  left: 38%;
+}
+
+#serThree {
+  right: 0;
+}
+#serFour {
+  left: 0;
+  bottom: 0;
+}
+
+#services > img {
+  width: 880px;
+  height: 640px;
+  position: absolute;
+  bottom: 0;
+  right: 65px;
+}
+#webDesi {
+  height: 84px;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+#webDevelop {
+  height: 84px;
+  position: absolute;
+  left: 40%;
+  top: 15px;
+}
+#appDeve {
+  height: 84px;
+  position: absolute;
+  right: 205px;
+  top: 15px;
+}
+#graphic {
+  height: 84px;
+  position: absolute;
+  bottom: 280px;
+  left: 20px;
+}
+#webDesH1 {
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  left: 25px;
+  top: 70px;
+}
+#webDevH2 {
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  left: 40%;
+  top: 75px;
+}
+#appDevH2 {
+  color: #ffffff;
+  font-size: 32px;
+  position: absolute;
+  right: 35px;
+  top: 75px;
+}
+#graphicH2 {
+  color: #ffffff;
+  font-size: 36px;
+  position: absolute;
+  left: 25px;
+  bottom: 200px;
+}
+#webDesP {
+  color: #ffffff;
+  font-size: 24px;
+  height: 127px;
+  width: 290px;
+  position: absolute;
+  left: 15px;
+  top: 175px;
+  text-align: -webkit-center;
+}
+#webDevP {
+  color: #ffffff;
+  font-size: 24px;
+  height: 127px;
+  width: 290px;
+  position: absolute;
+  left: 39%;
+  top: 175px;
+  text-align: -webkit-center;
+}
+#appDevP {
+  color: #ffffff;
+  font-size: 24px;
+  height: 127px;
+  width: 290px;
+  position: absolute;
+  right: 16px;
+  top: 175px;
+  text-align: -webkit-center;
+}
+#graphicP {
+  color: #ffffff;
+  font-size: 24px;
+  height: 127px;
+  width: 290px;
+  position: absolute;
+  left: 15px;
+  bottom: 25px;
+  text-align: -webkit-center;
+}
+
+/* Services End */

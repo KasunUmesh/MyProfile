@@ -950,3 +950,131 @@ opacity: 1;
 }
 
 /* Project Section End */
+
+/* Contact Section Start */
+
+#contact {
+  height: 100vh;
+  background-color: #262626;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#contact > h3 {
+  color: #ffffff;
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+}
+#contact > h1 {
+  font-size: 75px;
+  top: 65px;
+}
+#conBox div {
+  width: 450px;
+  height: 93px;
+  background-color: #1e1e1e;
+  position: absolute;
+}
+#conBox div:nth-child(1) {
+  right: 65%;
+  top: 20%;
+}
+#conBox div:nth-child(2) {
+  right: 65%;
+  top: 35%;
+}
+#conCircul div {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-color: #363636;
+}
+#conCircul div:nth-child(1) {
+  right: 84%;
+  top: 21%;
+  position: absolute;
+}
+#conCircul div:nth-child(2) {
+  right: 84%;
+  top: 335px;
+  position: absolute;
+}
+#conLine {
+  background-color: white;
+  width: 414px;
+  height: 4px;
+  position: absolute;
+  transform: rotate(90deg);
+  border-radius: 100px;
+  top: 45%;
+  left: 39%;
+}
+#conCircul div i {
+  left: 20px;
+    top: 22px;
+    position: relative;
+    font-size: 30px;
+}
+#conBox div h3 {
+  color: #ffffff;
+  font-size: 24px;
+  left: 120px;
+  top: 10px;
+  position: absolute;
+}
+#sendMess {
+  position: absolute;
+  left: 55%;
+  top: 15%;
+}
+.form-group {
+  width: 505px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 505px;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #1e1e1e;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  color: #ffffff;
+}
+textarea {
+  resize: vertical;
+  color: #ffffff;
+}
+label {
+  color: #ffffff;
+}
+button[type="submit"] {
+  width: 145px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: #00b2ff;
+  color: #000000;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease background-color;
+  font-weight: bold;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+
+#contact section img {
+  position: absolute;
+  opacity: 6%;
+  right: 200px;
+  top: 45px;
+  width: 840px;
+}
+
+/* Contact Section End */

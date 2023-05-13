@@ -1,6 +1,7 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*Header Start*/
@@ -233,29 +234,38 @@ span{
 
 #about > h1 {
   position: absolute;
-  font-size: 50px;
-  text-decoration-line: underline;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
   top: 70px;
+  color: #ffffff;
+}
+#about > h5{
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  top: 135px;
+  left: 43.3%;
+  color: #ffffff;
 }
 
 #about > p {
   color: #ffffff;
   position: absolute;
-  font-size: 25px;
-  right: 235px;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  right: 210px;
   margin: auto;
-  top: 190px;
-}
-
-#about h1{
-  color: #ffffff;
+  top: 215px;
 }
 
 #aboutImg {
   position: absolute;
   margin: 0;
-  height: 600px;
-  left: -100px;
+  height: 660px;
+  left: -120px;
   top: 150px;
 }
 
@@ -273,7 +283,7 @@ span{
   align-items: center;
   display: flex;
   justify-content: center;
-  top: 320px;
+  top: 350px;
   left: 32%;
   position: relative;
  
@@ -286,14 +296,14 @@ span{
   padding: 12px 36px;
   color: #fff;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   letter-spacing: 2px;
   border-radius: 40px;
   background-size: 300% 100%;
-
-  background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
-
+  /* background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); */
+  background-color: #D35400;
+  box-shadow: 0 4px 15px 0 rgb(196 115 49 / 75%);
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;

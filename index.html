@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- AOS lis Styles -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -57,7 +59,7 @@
     <main>
       <!-- Home -->
       <section id="home">
-        <section id="homeImg">
+        <section id="homeImg" data-aos="fade-left">
           <img src="assets\images\mainImage.jpg" alt="Main Image" />
         </section>
         <section id="homeMyName">
@@ -146,7 +148,9 @@
 
       <!-- About Me Start -->
       <section id="about">
-        <h1>ABOUT ME</h1>
+        <h1>About <span>Me</span></h1>
+        <h5>Software Engineer</h5>
+
         <p>
           Hello, I’m Kasun Umesh. I am currently an undergraduate computer
           science student.<br />
@@ -158,7 +162,7 @@
         </p>
 
         <div class="buttonContact">
-          <a class="btn-1" href="#contact">Contact Me</a>
+          <a class="btn-1" href="#">Download CV</a>
         </div>
 
         <img id="aboutImg" src="assets\images\About.png" alt="About Image" />
@@ -449,5 +453,12 @@
       </section>
       <!-- Contact Section End -->
     </main>
+
+    <!-- AOS lib Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init(); // AOS init
+    </script>
   </body>
 </html>

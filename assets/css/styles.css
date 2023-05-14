@@ -54,6 +54,7 @@ font-size: 20px;
 padding: 7px 13px;
 border-radius: 2px;
 text-transform: uppercase;
+font-family: 'Roboto', sans-serif;
 
 }
 header > nav > ul > li > a:hover {
@@ -105,10 +106,11 @@ main > section:nth-child(1) {
   position: absolute;
   /* border: 1px solid red; */
   height: 50vh;
-  width: 55vw;
+  width: 60vw;
   top: 260px;
   left: 150px;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 .text-box{
 
@@ -123,6 +125,9 @@ main > section:nth-child(1) {
   font-size: 80px;
   line-height: 30px;
 
+}
+.text-box h2 {
+  margin-bottom: 30px;
 }
 span{
   color: #d35400;

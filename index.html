@@ -25,8 +25,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <!-- AOS lis Styles -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Import Pre Loader Styles -->
+    <link rel="stylesheet" href="assets/css/preloader.css" />
   </head>
   <body>
+    <div id="pre-loader">
+      <img src="assets/images/loader.gif" alt="pre-loader" />
+    </div>
+
     <header>
       <!-- <section></section> -->
 
@@ -62,14 +68,14 @@
         <section id="homeImg" data-aos="fade-left">
           <img src="assets\images\mainImage.jpg" alt="Main Image" />
         </section>
-        <section id="homeMyName">
+        <section id="homeMyName" data-aos="fade-right">
           <!-- <h1>Hello....!</h1>
           <h1 id="name">I'm Kasun Umesh</h1>
           <h1 id="change-name">Kasun Umesh</h1>
           <h2 id="other-title">Professional Full Stack Developer</h2> -->
 
           <div class="text-box">
-            <h1>I'm <span>Kasun Umesh</span></h1>
+            <h1>I'm <span class="auto-type"></span></h1>
             <h2>Professional Full Stack Developer</h2>
           </div>
           <!-- Social Media Start -->
@@ -457,8 +463,28 @@
     <!-- AOS lib Js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- Import jQuery -->
+    <script src="assets/lib/jQuery/jquery-3.6.4.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <script>
       AOS.init(); // AOS init
+
+      $(document).ready(() => {
+        $("#pre-loader").css("display", "none");
+      });
+
+      var typed = new Typed(".auto-type", {
+        strings: [
+          "Kasun Umesh",
+          "Software Engineer",
+          "Fullstack Java Developer",
+        ],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true,
+      });
     </script>
   </body>
 </html>

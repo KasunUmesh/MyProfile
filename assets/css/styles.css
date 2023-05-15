@@ -28,12 +28,12 @@ header > nav {
 
 header >nav> a > img {
   /* position: absolute; */
- width: 160px;
+ width: 110px;
  /* top: -27px; */
  cursor: pointer;
  padding: 0px 0px;
  line-height: 73px;
- margin-top: -20px;
+ margin-top: -5px;
  /* align-items: center; */
 }
 header > nav > ul {
@@ -42,7 +42,7 @@ margin-right: 20px;
 }
 header > nav > ul > li {
 display: inline-block;
-line-height: 52px;
+line-height: 40px;
 margin: 0 5px;
 }
 header > nav > ul > li > a {
@@ -50,11 +50,12 @@ text-decoration: none;
 /* font-weight: bold; */
 color: white;
 transition: ease;
-font-size: 20px;
+font-size: 19px;
 padding: 7px 13px;
 border-radius: 2px;
 text-transform: uppercase;
 font-family: 'Roboto', sans-serif;
+font-weight: 100;
 
 }
 header > nav > ul > li > a:hover {
@@ -340,20 +341,29 @@ span{
   /* border: 1px solid red; */
 }
 
+#skills > h5 {
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
 #skills > h1 {
   font-size: 72px;
-  text-decoration-line: underline;
-  color: #ffcc00;
+  color: #fff;
   position: absolute;
-  top: 5px;
-  left: 30px;
+  top: 60px;
+  font-family: 'Roboto', sans-serif;
+  
 }
 
 #skills > section {
   /* border: 1px solid green; */
   width: 1300px;
   height: 630px;
-  top: 190px;
+  top: 250px;
   position: absolute;
   display: flex;
   /* flex-direction: column; */
@@ -366,6 +376,7 @@ span{
   position: absolute;
   color: white;
   box-shadow: rgb(0 0 0) 0px 0px 8px 8px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #divOne {
@@ -472,7 +483,7 @@ span{
   
 }
 
-#services > div {
+/* #services > div {
   width: 545px;
   height: 80px;
   background-color: #ffffff;
@@ -480,25 +491,35 @@ span{
   top: 2px;
   left: 0;
   opacity: 5%;
+} */
+
+#services > h5 {
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 #services > h1 {
-  color: #d35400;
+  color: #fff;
   font-size: 64px;
-  top: -41px;
-  left: 150px;
+  top: 65px;
   position: absolute;
+  font-family: 'Roboto', sans-serif;
 }
 
 #services > section {
   width: 1300px;
   height: 800px;
   /* left: 350px; */
-  top: 115px;
+  top: 210px;
   position: absolute;
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 #services > section > div {
@@ -508,6 +529,7 @@ span{
   box-shadow: rgb(0 0 0) 0px 0px 10px 10px;
   background-color: #ffffff;
   opacity: 5%;
+  
 }
 #serOne {
   left: 0;
@@ -637,18 +659,29 @@ span{
   justify-content: center;
 }
 
+#education > h5 {
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
 #education > h1 {
-  color: #d35400;
+  color: #fff;
   position: absolute;
   font-size: 90px;
-  top: 20px;
+  top: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 #education > section {
   display: flex;
   position: absolute;
   height: 650px;
   width: 1600px;
-  top: 130px;
+  top: 230px;
+  font-family: 'Roboto', sans-serif;
 }
 #education > section > div {
   width: 99px;
@@ -723,17 +756,17 @@ span{
 }
 #eduName h2:nth-child(1) {
   font-size: 30px;
-  left: 30%;
-  top: 125px;
+  left: 25%;
+  top: 120px;
 }
 #eduName h2:nth-child(3) {
   top: 64px;
-  left: 360%;
+  left: 322%;
   font-size: 29px;
 }
 #eduName h2:nth-child(5) {
   font-size: 24px;
-  left: 220%;
+  left: 195%;
   top: 392px;
 }
 #eduName h3 {
@@ -742,13 +775,13 @@ span{
 }
 #eduName h3:nth-child(2) {
   font-size: 27px;
-  top: 165px;
+  top: 156px;
   left: 230px;
 }
 #eduName h3:nth-child(4) {
   font-size: 26px;
   top: 160px;
-  left: 1380px;
+  left: 1370px;
 }
 #eduName h3:nth-child(6) {
   font-size: 23px;
@@ -759,6 +792,7 @@ span{
   position: absolute;
   bottom: 0;
   height: 530px;
+  opacity: 0.3;
 }
 
 /* Education End */
@@ -766,18 +800,29 @@ span{
 /* Project Section Start */
 
 #project {
-  height: 109vh;
+  height: 115vh;
   background-color: #000a12;
   display: flex;
   position: relative;
   justify-content: center;
   
 }
+
+#project > h5 {
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
 #project > h1 {
-  color: #d35400;
+  color: #fff;
   font-size: 64px;
   position: absolute;
-  top: 0px;
+  top: 73px;
+  font-family: 'Roboto', sans-serif;
 }
 #project > img {
   position: absolute;
@@ -788,7 +833,7 @@ span{
 #project > section {
   width: 1660px;
   height: 815px;
-  top: 38px;
+  top: 100px;
   margin: 120px;
   position: relative;
   display: flex;
@@ -970,7 +1015,7 @@ opacity: 1;
 
 #contact {
   height: 100vh;
-  background-color: #262626;
+  background-color: #131212;
   position: relative;
   display: flex;
   justify-content: center;

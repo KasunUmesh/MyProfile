@@ -319,28 +319,12 @@ span{
   cursor: pointer;
   transition-duration: .3s;
 
-
-  /* -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out; */
 }
 
 .btn-1:hover {
   background-color: #b14a06;
 }
 
-
-/* .btn-1:hover{
-  background-position: 100% 0;
-  -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-}
-.btn-1:focus{
-  outline: none;
-} */
 
 /* About Me End */
 
@@ -1140,3 +1124,24 @@ button[type="submit"]:hover {
 }
 
 /* Contact Section End */
+
+/* Footer Section Start */
+
+footer {
+  position: relative;
+  background-color: #232222;
+  margin: 0;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+  opacity: 0.7;
+  position: relative;
+  bottom: 10px;
+}
+
+/* Footer Section End */

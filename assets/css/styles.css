@@ -150,10 +150,11 @@ span{
   float: left;
   margin: 0 5px;
   overflow: hidden;
-  background: #01000cdc;
+  background: #03001fdc;
+  /* 01000cdc */
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 2px 3px 5px rgba(25, 197, 240, 0.24);
+  box-shadow: 2px 3px 5px rgba(25, 197, 240, 0.322);
   transition: all 0.3s ease-out;
 }
 .wrapper .button:hover {
@@ -295,6 +296,11 @@ span{
  
 
 }
+.buttonContact > a > i {
+  color: #ffffff; 
+  padding-right: 10px;
+  transition-duration: .3s;
+}
 
 .btn-1{
   text-decoration: none;
@@ -310,13 +316,22 @@ span{
   /* background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); */
   background-color: #D35400;
   box-shadow: 0 4px 15px 0 rgb(196 115 49 / 75%);
-  -moz-transition: all .4s ease-in-out;
+  cursor: pointer;
+  transition-duration: .3s;
+
+
+  /* -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out; */
 }
 
-.btn-1:hover{
+.btn-1:hover {
+  background-color: #b14a06;
+}
+
+
+/* .btn-1:hover{
   background-position: 100% 0;
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
@@ -325,7 +340,7 @@ span{
 }
 .btn-1:focus{
   outline: none;
-}
+} */
 
 /* About Me End */
 
@@ -1020,74 +1035,59 @@ opacity: 1;
   display: flex;
   justify-content: center;
 }
-#contact > h3 {
-  color: #ffffff;
-  position: absolute;
-  top: 10px;
-  font-size: 25px;
-}
+
 #contact > h1 {
   font-size: 75px;
-  top: 65px;
-}
-#conBox div {
-  width: 450px;
-  height: 93px;
-  background-color: #1e1e1e;
+  top: 200px;
+  color: #fff;
   position: absolute;
+  left: 150px;
+  font-family: 'Roboto', sans-serif;
 }
-#conBox div:nth-child(1) {
-  right: 65%;
-  top: 20%;
-}
-#conBox div:nth-child(2) {
-  right: 65%;
-  top: 35%;
-}
-#conCircul div {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  background-color: #363636;
-}
-#conCircul div:nth-child(1) {
-  right: 84%;
-  top: 21%;
+#contact > h3 {
+  font-family: 'Roboto', sans-serif;
+  top: 300px;
+  color: #fff;
   position: absolute;
+  left: 158px;
+  font-size: 30px;
 }
-#conCircul div:nth-child(2) {
-  right: 84%;
-  top: 335px;
+
+#contact > p {
+  font-family: 'Roboto', sans-serif;
+  top: 380px;
+  color: #fff;
   position: absolute;
+  left: 158px;
+  font-size: 25px;
+  width: 35%;
+  opacity: 0.6;
 }
-#conLine {
-  background-color: white;
-  width: 414px;
-  height: 4px;
+
+#contact > ul {
+  font-family: 'Roboto', sans-serif;
+  top: 480px;
+  color: #fff;
   position: absolute;
-  transform: rotate(90deg);
-  border-radius: 100px;
-  top: 45%;
-  left: 39%;
-}
-#conCircul div i {
-  left: 20px;
-    top: 22px;
-    position: relative;
-    font-size: 30px;
-}
-#conBox div h3 {
-  color: #ffffff;
-  font-size: 24px;
   left: 120px;
-  top: 10px;
-  position: absolute;
+  font-size: 25px;
+  width: 35%;
+  opacity: 0.6;
+  list-style: none;
 }
+
+#contact > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
 #sendMess {
   position: absolute;
   left: 55%;
-  top: 15%;
-}
+  top: 250px;
+  font-family: 'Roboto', sans-serif;
+} 
 .form-group {
   width: 505px;
   font-size: 20px;
@@ -1102,39 +1102,41 @@ opacity: 1;
   background-color: #1e1e1e;
   border: 1px solid rgba(128, 128, 128, 0.199);
   color: #ffffff;
+  border-radius: 5px;
 }
 textarea {
   resize: vertical;
   color: #ffffff;
 }
-label {
-  color: #ffffff;
-}
 button[type="submit"] {
-  width: 145px;
+  width: 225px;
   height: 50px;
   border: none;
   outline: none;
   padding: 10px;
   font-size: 24px;
   border-radius: 8px;
-  background-color: #00b2ff;
-  color: #000000;
+  background-color: #d35400;
+  color: #fff;
   cursor: pointer;
   margin-top: 15px;
   transition: 0.3s ease background-color;
-  font-weight: bold;
+  
 }
 button[type="submit"]:hover {
-  background-color: rgb(214, 226, 236);
+  background-color: rgb(160, 73, 2);
 }
 
-#contact section img {
+#contact .wrapper {
   position: absolute;
-  opacity: 6%;
-  right: 200px;
-  top: 45px;
-  width: 840px;
+  top: 67%;
+  left: 150px;
+}
+
+#contact .wrapper .button {
+  background: #863906;
+  box-shadow: 2px 3px 5px rgba(240, 201, 25, 0.322);
+  border-radius: 5px;
 }
 
 /* Contact Section End */

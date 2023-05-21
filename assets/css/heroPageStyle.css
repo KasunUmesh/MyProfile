@@ -175,32 +175,35 @@ span{
     width: 70vw;
   }
   .text-box h1 {
-    font-size: 45px;
+    font-size: 60px;
   }
   .text-box {
-    font-size: 15px;
+    font-size: 17px;
   }
   
 }
 
 @media all and (max-width: 992px) {
   main > section:nth-child(1) {
-    height: 90vh;
+    height: 93vh;
+  }
+  #homeImg {
+
   }
   #homeImg > img{
-    width: 52%;
-    left: 462px;
-    top: 15px;
+    width: 58%;
+    left: 403px;
+    top: -35px;
   }
   #homeMyName {
     left: 35px;
     width: 70vw;
   }
   .text-box h1 {
-    font-size: 32px;
+    font-size: 49px;
   }
   .text-box {
-    font-size: 12px;
+    font-size: 15px;
   }
   .wrapper .button {
     height: 55px;
@@ -215,11 +218,11 @@ span{
 
 @media all and (max-width: 768px) {
   main > section:nth-child(1) {
-    height: 143vh;
+    height: 145vh;
   }
   #homeImg > img{
     width: 92%;
-    left: 70px;
+    left: 60px;
     top: 175px;
   }
   #homeMyName {
@@ -228,7 +231,7 @@ span{
     top: 120px;
   }
   .text-box h1 {
-    font-size: 45px;
+    font-size: 55px;
   }
   .text-box {
     font-size: 15px;
@@ -238,12 +241,12 @@ span{
 
 @media all and (max-width: 576px) {
   main > section:nth-child(1) {
-    height: 100vh;
+    height: 116vh;
   }
   #homeImg > img{
     width: 98%;
-    left: 8px;
-    top: 145px;
+    left: 12px;
+    top: 140px;
   }
   #homeMyName {
     left: 8px;
@@ -251,15 +254,15 @@ span{
     top: 120px;
   }
   .text-box h1 {
-    font-size: 31px;
+    font-size: 45px;
   }
   .text-box {
-    font-size: 12px;
+    font-size: 15px;
   }
   
 .wrapper {
   display: grid;
-  top: 68px;
+  top: 175px;
   position: relative;
   width: 65px;
 }
@@ -267,6 +270,63 @@ span{
   margin-bottom: 5px;
 }
 
+
+}
+@media all and (max-width: 425px) {
+  main > section:nth-child(1) {
+    height: 100vh;
+  }
+  #homeImg > img{
+    width: 98%;
+    left: 8px;
+    top: 205px;
+  }
+  .text-box h1 {
+    font-size: 35px;
+  }
+  .text-box {
+    font-size: 13px;
+  }
+
+}
+@media all and (max-width: 375px) {
+  main > section:nth-child(1) {
+    height: 100vh;
+  }
+  #homeImg > img{
+    width: 98%;
+    left: 7px;
+    top: 150px;
+  }
+  .text-box h1 {
+    font-size: 30px;
+  }
+  .text-box {
+    font-size: 12px;
+  }
+  .wrapper {
+    top: 60px;
+  }
+
+}
+@media all and (max-width: 320px) {
+  main > section:nth-child(1) {
+    height: 82vh;
+  }
+  #homeImg > img{
+    width: 98%;
+    left: 6px;
+    top: 200px;
+  }
+  .text-box h1 {
+    font-size: 26px;
+  }
+  .text-box {
+    font-size: 10px;
+  }
+  .wrapper {
+    top: 60px;
+  }
 
 }
 

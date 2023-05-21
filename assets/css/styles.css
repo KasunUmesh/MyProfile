@@ -83,7 +83,7 @@ margin: 0 5px;
 
 }
 header > nav > ul > li > a:hover {
-color: #11101b;
+color: #fefefe;
 background: #d35400;
 /* transition: 0.5s; */
 }
@@ -140,7 +140,7 @@ display: none;
     left: 0;
     right: 0;
     width: 100vw;
-    background: #11101b;
+    background: rgba(13, 13, 13, 0.5);
     transition: 0.2s;
     height: 0;
     display: block;

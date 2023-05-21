@@ -150,19 +150,123 @@ span{
 /*Home End */
 
 /* Home Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #homeImg > img{
+    width: 63%;
+    left: 355px;
+    top: -46px;
+  }
+  #homeMyName {
+    left: 80px;
+    width: 70vw;
+  }
+  .text-box h1 {
+    font-size: 60px;
+  }
+}
 @media all and (max-width: 1200px) {
+  #homeImg > img{
+    width: 60%;
+    left: 384px;
+    top: -8px;
+  }
+  #homeMyName {
+    left: 35px;
+    width: 70vw;
+  }
+  .text-box h1 {
+    font-size: 45px;
+  }
+  .text-box {
+    font-size: 15px;
+  }
   
 }
 
 @media all and (max-width: 992px) {
+  main > section:nth-child(1) {
+    height: 90vh;
+  }
+  #homeImg > img{
+    width: 52%;
+    left: 462px;
+    top: 15px;
+  }
+  #homeMyName {
+    left: 35px;
+    width: 70vw;
+  }
+  .text-box h1 {
+    font-size: 32px;
+  }
+  .text-box {
+    font-size: 12px;
+  }
+  .wrapper .button {
+    height: 55px;
+    width: 55px;
+  }
+  .wrapper .button .icon {
+    height: 55px;
+    width: 55px;
+  }
 
 }
 
 @media all and (max-width: 768px) {
+  main > section:nth-child(1) {
+    height: 143vh;
+  }
+  #homeImg > img{
+    width: 92%;
+    left: 70px;
+    top: 175px;
+  }
+  #homeMyName {
+    left: 35px;
+    width: 95vw;
+    top: 120px;
+  }
+  .text-box h1 {
+    font-size: 45px;
+  }
+  .text-box {
+    font-size: 15px;
+  }
 
 }
 
 @media all and (max-width: 576px) {
+  main > section:nth-child(1) {
+    height: 100vh;
+  }
+  #homeImg > img{
+    width: 98%;
+    left: 8px;
+    top: 145px;
+  }
+  #homeMyName {
+    left: 8px;
+    width: 96vw;
+    top: 120px;
+  }
+  .text-box h1 {
+    font-size: 31px;
+  }
+  .text-box {
+    font-size: 12px;
+  }
+  
+.wrapper {
+  display: grid;
+  top: 68px;
+  position: relative;
+  width: 65px;
+}
+.wrapper .button {
+  margin-bottom: 5px;
+}
+
 
 }
 

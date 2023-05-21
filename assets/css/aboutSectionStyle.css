@@ -1,0 +1,100 @@
+/* About Me Start */
+
+#about {
+  height: 100vh;
+  background-color: #000a12;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  /* border: 1px solid red; */
+ 
+}
+
+#about > h1 {
+  position: absolute;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+  top: 70px;
+  color: #ffffff;
+}
+#about > h5{
+  position: absolute;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  top: 135px;
+  left: 43.3%;
+  color: #ffffff;
+}
+
+#about > p {
+  color: #ffffff;
+  position: absolute;
+  font-size: 23px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  right: 210px;
+  margin: auto;
+  top: 215px;
+}
+
+#aboutImg {
+  position: absolute;
+  margin: 0;
+  height: 660px;
+  left: -120px;
+  top: 150px;
+}
+
+#about-two {
+  position: absolute;
+  height: 530px;
+  right: 86px;
+  bottom: 0;
+}
+
+.buttonContact{
+
+  /* width: 180px; */
+  height: 55px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 350px;
+  left: 32%;
+  position: relative;
+ 
+
+}
+.buttonContact > a > i {
+  color: #ffffff; 
+  padding-right: 10px;
+  transition-duration: .3s;
+}
+
+.btn-1{
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 36px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  border-radius: 40px;
+  background-size: 300% 100%;
+  /* background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); */
+  background-color: #D35400;
+  box-shadow: 0 4px 15px 0 rgb(196 115 49 / 75%);
+  cursor: pointer;
+  transition-duration: .3s;
+
+}
+
+.btn-1:hover {
+  background-color: #b14a06;
+}
+
+
+/* About Me End */

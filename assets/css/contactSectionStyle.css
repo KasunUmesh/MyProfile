@@ -1,0 +1,114 @@
+/* Contact Section Start */
+
+#contact {
+  height: 100vh;
+  background-color: #131212;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#contact > h1 {
+  font-size: 75px;
+  top: 200px;
+  color: #fff;
+  position: absolute;
+  left: 150px;
+  font-family: 'Roboto', sans-serif;
+}
+#contact > h3 {
+  font-family: 'Roboto', sans-serif;
+  top: 300px;
+  color: #fff;
+  position: absolute;
+  left: 158px;
+  font-size: 30px;
+}
+
+#contact > p {
+  font-family: 'Roboto', sans-serif;
+  top: 380px;
+  color: #fff;
+  position: absolute;
+  left: 158px;
+  font-size: 25px;
+  width: 35%;
+  opacity: 0.6;
+}
+
+#contact > ul {
+  font-family: 'Roboto', sans-serif;
+  top: 480px;
+  color: #fff;
+  position: absolute;
+  left: 120px;
+  font-size: 25px;
+  width: 35%;
+  opacity: 0.6;
+  list-style: none;
+}
+
+#contact > ul > li > a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#sendMess {
+  position: absolute;
+  left: 55%;
+  top: 250px;
+  font-family: 'Roboto', sans-serif;
+} 
+.form-group {
+  width: 505px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 505px;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+  background-color: #1e1e1e;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  color: #ffffff;
+  border-radius: 5px;
+}
+textarea {
+  resize: vertical;
+  color: #ffffff;
+}
+button[type="submit"] {
+  width: 225px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 24px;
+  border-radius: 8px;
+  background-color: #d35400;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s ease background-color;
+  
+}
+button[type="submit"]:hover {
+  background-color: rgb(160, 73, 2);
+}
+
+#contact .wrapper {
+  position: absolute;
+  top: 67%;
+  left: 150px;
+}
+
+#contact .wrapper .button {
+  background: #863906;
+  box-shadow: 2px 3px 5px rgba(240, 201, 25, 0.322);
+  border-radius: 5px;
+}
+
+/* Contact Section End */

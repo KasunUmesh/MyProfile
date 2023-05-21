@@ -1,0 +1,141 @@
+/* Skills Start */
+
+#skills {
+  height: 100vh;
+  background-color: #000a12;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+#skills > h5 {
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#skills > h1 {
+  font-size: 72px;
+  color: #fff;
+  position: absolute;
+  top: 60px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#skills > section {
+  /* border: 1px solid green; */
+  width: 1300px;
+  height: 630px;
+  top: 250px;
+  position: absolute;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+#skills > section > div {
+  height: 260px;
+  width: 236px;
+  position: absolute;
+  color: white;
+  box-shadow: rgb(0 0 0) 0px 0px 8px 8px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#divOne {
+  left: 0;
+}
+#divTwo {
+  left: 25%;
+}
+#divThree {
+  left: 50%;
+}
+#divfour {
+  left: 75%;
+}
+#divfive {
+  left: 0;
+  bottom: 0;
+}
+#divSix {
+  left: 25%;
+  bottom: 0;
+}
+#divSeven {
+  left: 50%;
+  bottom: 0;
+}
+#divEight {
+  left: 75%;
+  bottom: 0;
+}
+
+#divOne img {
+  position: relative;
+  height: 123px;
+  left: 55px;
+  top: 20px;
+}
+#divTwo img {
+  position: relative;
+  height: 123px;
+  left: 55px;
+  top: 20px;
+}
+#divThree img {
+  position: relative;
+  height: 123px;
+  left: 55px;
+  top: 20px;
+}
+#divfour img {
+  position: relative;
+  height: 123px;
+  left: 55px;
+  top: 20px;
+}
+#divfive img {
+  position: relative;
+  height: 123px;
+  left: 70px;
+  top: 20px;
+}
+#divSix img {
+  position: relative;
+  height: 95px;
+  left: 25px;
+  top: 40px;
+}
+#divSeven img {
+  position: relative;
+  height: 123px;
+  left: 55px;
+  top: 20px;
+}
+#divEight img {
+  position: relative;
+  height: 100px;
+  left: 35px;
+  top: 30px;
+}
+
+#skills > section > div > h2 {
+  text-align: center;
+  top: 20px;
+  position: relative;
+  font-size: 35px;
+}
+#divSix h2 {
+  top: 50px;
+}
+#divEight h2 {
+  top: 40px;
+}
+
+/* Skills End */

@@ -20,9 +20,20 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Page Style Import -->
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/heroPageStyle.css" />
+    <link rel="stylesheet" href="assets/css/aboutSectionStyle.css" />
+    <link rel="stylesheet" href="assets/css/skillSectionStyle.css" />
+    <link rel="stylesheet" href="assets/css/serviceSectionStyle.css" />
+    <link rel="stylesheet" href="assets/css/educationSectionStyle.css" />
+    <link rel="stylesheet" href="assets/css/projectSectionStyle.css" />
+    <link rel="stylesheet" href="assets/css/contactSectionStyle.css" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
     <!-- AOS lis Styles -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Import Pre Loader Styles -->
@@ -45,21 +56,29 @@
         <a href="index.html"
           ><img src="assets/images/logo.png" alt="" width="50px"
         /></a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-
-          <li><a href="#about">About Me</a></li>
-
-          <li><a href="#skills">Skills</a></li>
-
-          <li><a href="#services">Services</a></li>
-
-          <li><a href="#education">Education</a></li>
-
-          <li><a href="#project">Project</a></li>
-
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        
+          <ul class="navBar">
+            <li class="navlink"><a href="#home" class="active">Home</a></li>
+  
+            <li class="navlink"><a href="#about">About Me</a></li>
+  
+            <li class="navlink"><a href="#skills">Skills</a></li>
+  
+            <li class="navlink"><a href="#services">Services</a></li>
+  
+            <li class="navlink"><a href="#education">Education</a></li>
+  
+            <li class="navlink"><a href="#project">Project</a></li>
+  
+            <li class="navlink"><a href="#contact">Contact Me</a></li>
+          </ul>
+        
+        
 
         <label id="icon">
           <i class="fas fa-bars"></i>
@@ -69,7 +88,7 @@
 
     <main>
       <!-- Home -->
-      <section id="home">
+      <!-- <section id="home">
         <section id="homeImg" data-aos="fade-left">
           <img src="assets\images\mainImage.jpg" alt="Main Image" />
         </section>
@@ -79,13 +98,13 @@
           <h1 id="change-name">Kasun Umesh</h1>
           <h2 id="other-title">Professional Full Stack Developer</h2> -->
 
-          <div class="text-box">
+          <!-- <div class="text-box">
             <h1>I'm <span class="auto-type"></span></h1>
             <h2>Professional Full Stack Developer</h2>
-          </div>
+          </div> -->
           <!-- Social Media Start -->
 
-          <section class="wrapper">
+          <!-- <section class="wrapper">
             <a
               class="link"
               href="https://www.facebook.com/wakasun.kasun.1/"
@@ -149,16 +168,16 @@
                 <span>Whatsapp</span>
               </div>
             </a>
-          </section>
+          </section> -->
 
           <!-- Social Media End -->
         </section>
-      </section>
+      </section> 
 
       <!-- Home End -->
 
       <!-- About Me Start -->
-      <section id="about">
+      <!-- <section id="about">
         <h1>About <span>Me</span></h1>
         <h5>Software Engineer</h5>
 
@@ -193,13 +212,13 @@
           src="assets\images\About_two.png"
           alt="About Background Image"
         />
-      </section>
+      </section> -->
 
       <!-- About Me End -->
 
       <!-- Skills Start -->
 
-      <section id="skills">
+      <!-- <section id="skills">
         <h5>What Do I Know</h5>
         <h1><span>My</span> Skills</h1>
 
@@ -244,37 +263,37 @@
             <h2>NODE JS</h2>
           </div>
         </section>
-      </section>
+      </section> -->
 
       <!-- Skills End -->
 
       <!-- Services Start -->
-      <section id="services">
+      <!-- <section id="services">
         <h5>What I Am Expert In</h5>
         <h1><span>My</span> Services</h1>
 
         <section>
           <!-- Web Design -->
-          <div id="serOne"></div>
+          <!-- <div id="serOne"></div> -->
 
-          <img
+          <!-- <img
             id="webDesi"
             src="assets/images/web_design.png"
             alt="Web Design"
-          />
+          /> -->
 
-          <h2 id="webDesH1">Web Design</h2>
+          <!-- <h2 id="webDesH1">Web Design</h2> -->
 
-          <p id="webDesP">
+          <!-- <p id="webDesP">
             I do ui/ux design for the website that helps website to get a unique
             look.
-          </p>
+          </p> -->
 
           <!-- Web Design End -->
 
           <!-- Web Development -->
 
-          <div id="serTwo"></div>
+          <!-- <div id="serTwo"></div>
 
           <img
             id="webDevelop"
@@ -287,13 +306,13 @@
           <p id="webDevP">
             I also develop the websites. I create high performance websites with
             fast speed.
-          </p>
+          </p> -->
 
           <!-- Web Development End -->
 
           <!-- App Development -->
 
-          <div id="serThree"></div>
+          <!-- <div id="serThree"></div>
 
           <img
             id="appDeve"
@@ -306,13 +325,13 @@
           <p id="appDevP">
             I develop mobile applications and Standalone applications. I create
             the best applications.
-          </p>
+          </p> -->
 
           <!-- App Development End -->
 
           <!-- Graphic Design -->
 
-          <div id="serFour"></div>
+          <!-- <div id="serFour"></div>
 
           <img
             id="graphic"
@@ -328,15 +347,15 @@
 
           <!--  Graphic Design End -->
         </section>
-        <img
+        <!-- <img
           src="assets/images/Skills_background.png"
           alt="Skills background"
-        />
+        />  -->
       </section>
       <!-- services End -->
 
       <!-- Education Start -->
-      <section id="education">
+      <!-- <section id="education">
         <h5>Educational Qualification</h5>
         <h1><span>E</span>ducation</h1>
 
@@ -371,11 +390,11 @@
             <h3>2021</h3>
           </section>
         </section>
-      </section>
+      </section> -->
       <!-- Education End -->
 
       <!-- Project Section Start -->
-      <section id="project">
+      <!-- <section id="project">
         <h5>Portfolio</h5>
         <h1><span>My</span> Project</h1>
         <img
@@ -426,11 +445,11 @@
             <h2>All Web Developing Project</h2>
           </section>
         </section>
-      </section>
+      </section> -->
       <!-- Project Section End -->
 
       <!-- Contact Section Start -->
-      <section id="contact">
+      <!-- <section id="contact">
         <h1>Contact <span>Me</span></h1>
         <h3>If You Have Any Project In Your Mind</h3>
 
@@ -449,7 +468,7 @@
 
         <!-- Social Media Start -->
 
-        <section class="wrapper">
+        <!-- <section class="wrapper">
           <a
             class="link"
             href="https://www.facebook.com/wakasun.kasun.1/"
@@ -509,12 +528,12 @@
               <span>Whatsapp</span>
             </div>
           </a>
-        </section>
+        </section> -->
 
         <!-- Social Media End -->
 
         <!-- Message Sent Section Start -->
-        <section id="sendMess">
+        <!-- <section id="sendMess">
           <form action="">
             <div class="form-group">
               <input
@@ -555,15 +574,15 @@
               >Send Message
             </button>
           </form>
-        </section>
+        </section> -->
         <!-- Message Sent Section End -->
-      </section>
+      </section>  
       <!-- Contact Section End -->
     </main>
 
-    <footer>
+    <!-- <footer>
       <p>Copyright ©2023 By Kasun Umesh All Rights Reserved</p>
-    </footer>
+    </footer> -->
 
     <!-- AOS lib Js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -574,22 +593,33 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script>
-      AOS.init(); // AOS init
+      // AOS.init(); // AOS init
 
       $(document).ready(() => {
         $("#pre-loader").css("display", "none");
       });
 
-      var typed = new Typed(".auto-type", {
-        strings: [
-          "Kasun Umesh",
-          "Software Engineer",
-          "Fullstack Java Developer",
-        ],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true,
-      });
+      // var typed = new Typed(".auto-type", {
+      //   strings: [
+      //     "Kasun Umesh",
+      //     "Software Engineer",
+      //     "Fullstack Java Developer",
+      //   ],
+      //   typeSpeed: 150,
+      //   backSpeed: 150,
+      //   loop: true,
+      // });
+
+
+      $(".hamburger").on("click", function () {
+        console.log("work");
+        $(".navBar").toggleClass("active");
+        $(".navlink").toggleClass("active");
+        
+      })
+
+
     </script>
+
   </body>
 </html>

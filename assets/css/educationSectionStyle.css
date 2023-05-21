@@ -1,0 +1,147 @@
+/* Education Start */
+
+#education {
+  height: 100vh;
+  background-color: #000a12;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+#education > h5 {
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  font-size: 24px;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#education > h1 {
+  color: #fff;
+  position: absolute;
+  font-size: 90px;
+  top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+#education > section {
+  display: flex;
+  position: absolute;
+  height: 650px;
+  width: 1600px;
+  top: 230px;
+  font-family: 'Roboto', sans-serif;
+}
+#education > section > div {
+  width: 99px;
+  height: 95px;
+  border-radius: 50%;
+  background-color: #d35400;
+  position: absolute;
+}
+#education > section > div:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+#education > section > div:nth-child(2) {
+  left: 1120px;
+  top: 0px;
+}
+#education > section > div:nth-child(3) {
+  top: 384px;
+  left: 645px;
+}
+#education > section > div > i {
+  position: absolute;
+  left: 15px;
+  top: 17px;
+  font-size: 60px;
+}
+#eduLine div {
+  background-color: white;
+  width: 170px;
+  height: 4px;
+  position: absolute;
+  transform: rotate(90deg);
+  border-radius: 100px;
+}
+#eduLine div:nth-child(1) {
+  left: -35px;
+  top: 177px;
+}
+#eduLine div:nth-child(2) {
+  top: 177px;
+  left: 1085px;
+}
+#eduLine div:nth-child(3) {
+  bottom: 85px;
+  left: 610px;
+}
+
+#eduBox div {
+  background-color: #ffffff;
+  width: 400px;
+  height: 100px;
+  opacity: 7%;
+  position: absolute;
+  border-radius: 7px;
+  box-shadow: rgb(255 255 255 / 24%) 8px 4px 16px 2px;
+}
+#eduBox div:nth-child(1) {
+  top: 125px;
+  left: 75px;
+}
+#eduBox div:nth-child(2) {
+  top: 125px;
+  left: 1196px;
+}
+#eduBox div:nth-child(3) {
+  bottom: 40px;
+  left: 720px;
+}
+#eduName h2 {
+  color: #ffffff;
+  position: relative;
+}
+#eduName h2:nth-child(1) {
+  font-size: 30px;
+  left: 25%;
+  top: 120px;
+}
+#eduName h2:nth-child(3) {
+  top: 64px;
+  left: 322%;
+  font-size: 29px;
+}
+#eduName h2:nth-child(5) {
+  font-size: 24px;
+  left: 195%;
+  top: 392px;
+}
+#eduName h3 {
+  color: #ffffff;
+  position: absolute;
+}
+#eduName h3:nth-child(2) {
+  font-size: 27px;
+  top: 156px;
+  left: 230px;
+}
+#eduName h3:nth-child(4) {
+  font-size: 26px;
+  top: 160px;
+  left: 1370px;
+}
+#eduName h3:nth-child(6) {
+  font-size: 23px;
+  top: 545px;
+  left: 890px;
+}
+#education > img {
+  position: absolute;
+  bottom: 0;
+  height: 530px;
+  opacity: 0.3;
+}
+
+/* Education End */

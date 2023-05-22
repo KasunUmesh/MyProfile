@@ -13,7 +13,7 @@ header {
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  z-index: 1;
+  z-index: 3000;
   
   
 }

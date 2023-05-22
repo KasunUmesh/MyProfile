@@ -12,7 +12,7 @@
 
 #about > h1 {
   position: absolute;
-  font-size: 55px;
+  font-size: 65px;
   font-family: 'Roboto', sans-serif;
   top: 70px;
   color: #ffffff;
@@ -22,29 +22,31 @@
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-size: 21px;
-  top: 135px;
-  left: 43.3%;
+  font-size: 27px;
+  top: 140px;
+  left: 42.1%;
   color: #ffffff;
 }
 
 #about > p {
   color: #ffffff;
   position: absolute;
-  font-size: 23px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  right: 210px;
+  right: 240px;
   margin: auto;
-  top: 215px;
+  top: 240px;
+  width: 865px;
 }
 
 #aboutImg {
   position: absolute;
   margin: 0;
   height: 660px;
-  left: -120px;
+  left: 160px;
   top: 150px;
+  z-index: 1;
 }
 
 #about-two {
@@ -61,9 +63,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  top: 350px;
-  left: 32%;
+  top: 400px;
+  left: 30%;
   position: relative;
+  z-index: 1;
  
 
 }
@@ -98,3 +101,248 @@
 
 
 /* About Me End */
+
+/* Home Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #aboutImg{
+    left: 64px;
+    top: 100px;
+
+  }
+  #about > p {
+    right: 121px;
+    width: 752px;
+
+  }
+  #about > h5 {
+    left: 39.3%;
+  }
+  .buttonContact{
+    left: 33%;
+    
+  }
+  #about-two {
+    height: 420px;
+  }
+  
+}
+@media all and (max-width: 1200px) {
+  #about > h1{
+    font-size: 60px;
+  }
+  #aboutImg{
+    left: 40px;
+    height: 580px;
+    top: 145px;
+  }
+  #about > p {
+    right: 13px;
+    width: 730px;
+    font-size: 23px;
+
+  }
+  #about > h5 {
+    left: 38.4%;
+  }
+  
+}
+
+@media all and (max-width: 992px) {
+  #about {
+    height: 90vh;
+  }
+  #aboutImg{
+    left: 15px;
+    height: 500px;
+  }
+  #about > p {
+    right: 24px;
+    width: 610px;
+    font-size: 20px;
+
+  }
+  #about > h5 {
+    left: 35.9%;
+    font-size: 25px;
+  }
+  .buttonContact{
+    left: 33%;
+    
+  }
+  #about-two {
+    height: 300px;
+  }
+  
+
+}
+
+@media all and (max-width: 768px) {
+  #about {
+    height: 145vh;
+  }
+  #aboutImg{
+    left: 160px;
+    height: 610px;
+    top: 480px;
+  }
+  #about > h1 {
+    left: 50px;
+  }
+  #about > p {
+    left: 46px;
+    width: 700px;
+    font-size: 23px;
+
+  }
+  #about > h5 {
+    left: 6.3%;
+    font-size: 25px;
+  }
+  .buttonContact{
+    left: 28%;
+    
+  }
+  #about-two {
+    right: 30px;
+  }
+ 
+
+}
+
+@media all and (max-width: 576px) {
+  #about {
+    height: 160vh;
+  }
+  #aboutImg{
+    left: 65px;
+    height: 610px;
+    top: 580px;
+  }
+  #about > h1 {
+    left: 50px;
+    font-size: 70px;
+  }
+  #about > p {
+    left: 46px;
+    width: 500px;
+    font-size: 24px;
+
+  }
+  #about > h5 {
+    left: 8.3%;
+    font-size: 30px;
+  }
+  .buttonContact{
+    left: 20%;
+    top: 480px;
+    
+  }
+  #about-two {
+    right: 8px;
+    height: 250px;
+  }
+
+
+}
+@media all and (max-width: 425px) {
+  #about {
+    height: 155vh;
+  }
+  #aboutImg{
+    left: 35px;
+    height: 500px;
+    top: 600px;
+  }
+  #about > p {
+    left: 36px;
+    width: 340px;
+    font-size: 20px;
+    text-align: justify;
+    top: 255px;
+
+  }
+  #about > h5 {
+    left: 11.3%;
+    
+  }
+  .buttonContact{
+    left: 12%;
+    top: 500px;
+    
+  }
+  #about-two {
+    right: 8px;
+    height: 210px;
+  }
+  
+
+}
+@media all and (max-width: 375px) {
+  #about {
+    height: 160vh;
+  }
+  #aboutImg{
+    left: 25px;
+    height: 450px;
+    
+  }
+  #about > h1 {
+    left: 30px;
+    font-size: 55px;
+  }
+  #about > p {
+    left: 25px;
+    width: 331px;
+    top: 230px;
+
+  }
+  #about > h5 {
+    left: 7.3%;
+    font-size: 25px;
+    top: 125px;
+    
+  }
+  .buttonContact{
+    left: 10%;
+    top: 500px;
+    
+  }
+  #about-two {
+    right: 8px;
+    height: 210px;
+  }
+ 
+}
+@media all and (max-width: 320px) {
+  #about {
+    height: 140vh;
+  }
+  #aboutImg{
+    left: 15px;
+    height: 400px;
+    
+  }
+  
+  #about > p {
+    width: 280px;
+    top: 225px;
+
+  }
+  #about > h5 {
+    left: 8.3%;
+    
+    
+  }
+  .buttonContact{
+    left: 5%;
+    
+    
+  }
+  #about-two {
+    height: 200px;
+  }
+  
+
+}
+
+/* Home Responsive Style End */

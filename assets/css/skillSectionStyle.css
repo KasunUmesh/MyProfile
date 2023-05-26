@@ -6,6 +6,7 @@
   display: flex;
   position: relative;
   justify-content: center;
+  overflow: hidden;
   /* border: 1px solid red; */
 }
 
@@ -45,8 +46,8 @@
   color: white;
   box-shadow: rgb(0 0 0) 0px 0px 8px 8px;
   font-family: 'Roboto', sans-serif;
+  
 }
-
 #divOne {
   left: 0;
 }
@@ -54,18 +55,19 @@
   left: 25%;
 }
 #divThree {
-  left: 50%;
-}
-#divfour {
-  left: 75%;
-}
-#divfive {
   left: 0;
   bottom: 0;
 }
-#divSix {
+#divfour {
   left: 25%;
   bottom: 0;
+}
+#divfive {
+  left: 50%;
+}
+#divSix {
+  left: 75%;
+  
 }
 #divSeven {
   left: 50%;
@@ -137,5 +139,221 @@
 #divEight h2 {
   top: 40px;
 }
+input[type="radio"] {
+  display: none;
+}
 
 /* Skills End */
+
+/* Home Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #skills > h5 {
+    top: 45px;
+  }
+  #skills > h1 {
+    top: 55px;
+  }
+  #skills > section {
+    width: 1085px;
+    height: 510px;
+    top: 220px;
+  }
+  #skills > section > div {
+    height: 230px;
+  }
+  
+}
+@media all and (max-width: 1200px) {
+  
+  
+}
+@media all and (max-width: 1024px) {
+  #skills > section {
+    width: 200%;
+    transition: all 1s ease;
+  }
+  #two:checked ~ #card {
+    margin-left: -100%;
+  }
+  #skills > .one-card {
+    left: 130px;
+
+  }
+  #skills > .two-card {
+    left: 130px;
+
+  }
+  
+  #skills > .button {
+    display: flex;
+    margin: 20px;
+    align-items: end;
+  }
+  #skills > .button > label {
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    margin: 0 4px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+  }
+  #skills > .button > label.active {
+    width: 35px;
+  }
+
+  #one:checked ~ .button label.one {
+    width: 35px;
+  }
+  #two:checked ~ .button label.two {
+    width: 35px;
+  }
+  #two:checked ~ .button label.one {
+    width: 15px;
+  }
+  #one:checked ~ .button label.two {
+    width: 15px;
+  }
+
+ 
+ 
+
+}
+
+@media all and (max-width: 992px) {
+  
+
+}
+
+@media all and (max-width: 768px) {
+  #skills > .one-card {
+    left: 70px;
+  }
+  #skills > .two-card {
+    left: 70px;
+  }
+ 
+
+}
+
+@media all and (max-width: 576px) {
+  #skills > .one-card {
+    left: 30px;
+  }
+  #skills > .two-card {
+    left: 30px;
+  }
+ 
+
+}
+@media all and (max-width: 425px) {
+  #skills > h5 {
+    font-size: 20px;
+  }
+  #skills > h1 {
+    font-size: 55px;
+    top: 65px;
+  }
+  #skills > section {
+    height: 450px;
+  }
+  #skills > section > div {
+    width: 150px;
+    height: 180px;
+  }
+  #divOne img {
+    height: 70px;
+    left: 40px;
+
+  }
+  #divTwo img {
+    height: 70px;
+    left: 40px;
+  }
+  #divThree img {
+    height: 70px;
+    left: 40px;
+  }
+  #divfour img {
+    height: 70px;
+    left: 40px;
+  }
+  #divfive img {
+    height: 70px;
+    left: 52px;
+  }
+  #divSix img {
+    height: 50px;
+    left: 30px;
+  }
+  #divSeven img {
+    height: 70px;
+    left: 40px;
+  }
+  #divEight img {
+    height: 60px;
+    left: 30px;
+  }
+  #skills > section > div > h2 {
+    top: 40px;
+    font-size: 20px;
+  }
+ 
+}
+@media all and (max-width: 375px) {
+  #skills > .one-card {
+    left: 20px;
+  }
+  #skills > .two-card {
+    left: 20px;
+  }
+  
+}
+@media all and (max-width: 320px) {
+  #skills > section {
+    height: 395px;
+    top: 250px;
+  }
+  #skills > section > div {
+    width: 125px;
+    height: 170px;
+  }
+  #skills > section > div > h2 {
+    font-size: 15px;
+  }
+  #divOne img {
+    height: 60px;
+    left: 35px;
+
+  }
+  #divTwo img {
+    height: 60px;
+    left: 35px;
+  }
+  #divThree img {
+    height: 60px;
+    left: 35px;
+  }
+  #divfour img {
+    height: 60px;
+    left: 35px;
+  }
+  #divfive img {
+    height: 60px;
+    left: 42px;
+  }
+  #divSix img {
+    height: 50px;
+    left: 15px;
+  }
+  #divSeven img {
+    height: 60px;
+    left: 35px;
+  }
+  #divEight img {
+    height: 50px;
+    left: 25px;
+  }
+ 
+}
+
+/* Home Responsive Style End */

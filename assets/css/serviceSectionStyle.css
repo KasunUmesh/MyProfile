@@ -1,12 +1,12 @@
 /* Services Start */
 
 #services {
-  height: 100vh;
+  height: 115vh;
   background-color: #000a12;
   display: flex;
   position: relative;
   justify-content: center;
-  
+  overflow: hidden;
 }
 
 /* #services > div {
@@ -37,10 +37,14 @@
 }
 
 #services > section {
-  width: 1300px;
+  width: 1577px;;
+}
+
+#services > #slider > section {
+  width: 1220px;
   height: 800px;
-  /* left: 350px; */
-  top: 210px;
+  left: 200px;
+  top: 250px;
   position: absolute;
   display: flex;
   /* flex-direction: column; */
@@ -48,15 +52,19 @@
   font-family: 'Roboto', sans-serif;
 }
 
-#services > section > div {
+#services > #slider > section > div {
   height: 389px;
   width: 319px;
   position: absolute;
   box-shadow: rgb(0 0 0) 0px 0px 10px 10px;
-  background-color: #ffffff;
-  opacity: 5%;
+  background-color: rgb(255 255 255 / 6%);
+  display: flex;
+  /* margin: 50px; */
   
 }
+/* .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(1px);
+} */
 #serOne {
   left: 0;
 }
@@ -88,7 +96,7 @@
 #webDevelop {
   height: 84px;
   position: absolute;
-  left: 40%;
+  left: 10%;
   top: 15px;
 }
 #appDeve {
@@ -112,10 +120,10 @@
 }
 #webDevH2 {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 30px;
   position: absolute;
-  left: 40%;
-  top: 75px;
+  left: 10%;
+  top: 80px;
 }
 #appDevH2 {
   color: #ffffff;
@@ -147,7 +155,7 @@
   height: 127px;
   width: 290px;
   position: absolute;
-  left: 39%;
+  left: 5%;
   top: 175px;
   text-align: -webkit-center;
 }
@@ -173,3 +181,180 @@
 }
 
 /* Services End */
+
+/* Home Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #services {
+    height: 135vh;
+  }
+  #services > section {
+    width: 1310px;
+  }
+  #services > #slider > section {
+    width: 1140px;
+    left: 90px;
+  }
+  #serTwo {
+    left: 36%;
+}
+  
+}
+@media all and (max-width: 1200px) {
+  #serTwo {
+    left: 35%;
+  }
+  #webDevelop {
+    left: 5%;
+  }
+  #webDevH2 {
+    left: 6%;
+  }
+  #webDevP {
+    left: 5%;
+  }
+  #services >  section {
+    width: 1040px;
+  }
+  
+  
+}
+@media all and (max-width: 1024px) {
+  #services >  section {
+    width: 700px;
+  }
+  #serTwo {
+    right: 0;
+    left: auto;
+  }
+  #serThree {
+    left: 0;
+    bottom: 0;
+  }
+  #serFour {
+    bottom: 0;
+    right: 0;
+    left: auto;
+  }
+
+}
+
+@media all and (max-width: 992px) {
+  
+  
+
+}
+
+@media all and (max-width: 768px) {
+  #services > section {
+    width: 780px;
+  }
+  
+  #services > #slider > section {
+    width: 200%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 210px;
+  }
+  #services > #slider > section > div {
+  
+    position: relative;
+    display: flex;
+    margin-right: 95px;
+    height: 500px;
+    width: 370px;
+  }
+  #services > img {
+    width: 700px;
+    height: 550px;
+  }
+  
+
+}
+
+@media all and (max-width: 576px) {
+  #services > section {
+    width: 580px;
+  }
+  #services > #slider > section {
+    left: -50px;
+  }
+  #services > img {
+    width: 490px;
+    height: 450px;
+  }
+ 
+
+}
+@media all and (max-width: 425px) {
+  #services > h5 {
+    top: 60px;
+    font-size: 20px;
+  }
+  #services > h1 {
+    top: 80px;
+    font-size: 50px;
+  }
+  #services > section {
+    width: 430px;
+  }
+  #services > #slider > section {
+    left: -25px;
+  }
+  #services > #slider > section > div {
+    margin-right: 50px;
+    height: 420px;
+    width: 320px;
+  }
+  #services > img {
+    width: 340px;
+    height: 350px;
+  }
+ 
+}
+@media all and (max-width: 375px) {
+  #services > section {
+    width: 430px;
+  }
+  #services > #slider > section {
+    left: 5px;
+  }
+  #services > #slider > section > div {
+    height: 400px;
+    width: 300px;
+  }
+  #services > img {
+    width: 300px;
+    height: 300px;
+  }
+  
+  
+}
+@media all and (max-width: 320px) {
+  #services > h5 {
+    top: 65px;
+    font-size: 18px;
+  }
+  #services > h1 {
+    top: 85px;
+    font-size: 40px;
+  }
+  #services > section {
+    width: 430px;
+  }
+  #services > #slider > section {
+    left: 25px;
+  }
+  #services > #slider > section > div {
+    height: 390px;
+    width: 266px;
+  }
+  #services > img {
+    width: 243px;
+    height: 245px;
+  }
+ 
+}
+
+/* Home Responsive Style End */

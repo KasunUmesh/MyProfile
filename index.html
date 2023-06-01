@@ -15,10 +15,7 @@
     <meta property="og:url" content="https://kasunumesh.github.io/MyProfile/" />
     <meta name="twitter:card" content="summary_large_image" />
 
-    <script
-      src="https://kit.fontawesome.com/4c9fb7b689.js"
-      crossorigin="anonymous"
-    ></script>
+    
 
     <!-- Page Style Import -->
     <link rel="stylesheet" href="assets/css/normalize.css" />
@@ -43,6 +40,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   </head>
   <body>
     <div id="pre-loader">
@@ -274,89 +273,86 @@
       <!-- Skills End -->
 
       <!-- Services Start -->
-      <!-- <section id="services">
+      <section id="services">
         <h5>What I Am Expert In</h5>
         <h1><span>My</span> Services</h1>
 
-        <section>
-          <!-- Web Design -->
-          <!-- <div id="serOne"></div> -->
-
-          <!-- <img
-            id="webDesi"
-            src="assets/images/web_design.png"
-            alt="Web Design"
-          /> -->
-
-          <!-- <h2 id="webDesH1">Web Design</h2> -->
-
-          <!-- <p id="webDesP">
-            I do ui/ux design for the website that helps website to get a unique
-            look.
-          </p> -->
-
-          <!-- Web Design End -->
-
-          <!-- Web Development -->
-
-          <!-- <div id="serTwo"></div>
-
-          <img
-            id="webDevelop"
-            src="assets/images/web_Development.png"
-            alt="Web Development"
-          />
-
-          <h2 id="webDevH2">Web Development</h2>
-
-          <p id="webDevP">
-            I also develop the websites. I create high performance websites with
-            fast speed.
-          </p> -->
-
-          <!-- Web Development End -->
-
-          <!-- App Development -->
-
-          <!-- <div id="serThree"></div>
-
-          <img
-            id="appDeve"
-            src="assets/images/app_development.png"
-            alt="App Development"
-          />
-
-          <h2 id="appDevH2">App Development</h2>
-
-          <p id="appDevP">
-            I develop mobile applications and Standalone applications. I create
-            the best applications.
-          </p> -->
-
-          <!-- App Development End -->
-
-          <!-- Graphic Design -->
-
-          <!-- <div id="serFour"></div>
-
-          <img
-            id="graphic"
-            src="assets/images/graphic_design.png"
-            alt="Graphic Design"
-          />
-
-          <h2 id="graphicH2">Graphic Design</h2>
-
-          <p id="graphicP">
-            I am best graphic designer. I create creative designs.
-          </p>
-
-          <!--  Graphic Design End -->
+        <section class="swiper mySwiper" id="slider">
+          <section class="swiper-wrapper">
+            <!-- Web Design -->
+            <div id="serOne" class="swiper-slide">
+              <img
+              id="webDesi"
+              src="assets/images/web_design.png"
+              alt="Web Design"
+            />
+  
+            <h2 id="webDesH1">Web Design</h2>
+  
+            <p id="webDesP">
+              I do ui/ux design for the website that helps website to get a unique
+              look.
+            </p> 
+            </div>
+            <!-- Web Design End -->
+  
+            <!-- Web Development -->
+            <div id="serTwo" class="swiper-slide">
+              <img
+              id="webDevelop"
+              src="assets/images/web_Development.png"
+              alt="Web Development"
+            />
+  
+            <h2 id="webDevH2">Web Development</h2>
+  
+            <p id="webDevP">
+              I also develop the websites. I create high performance websites with
+              fast speed.
+            </p>
+            </div>
+            <!-- Web Development End -->
+  
+            <!-- App Development -->
+            <div id="serThree" class="swiper-slide">
+              <img
+              id="appDeve"
+              src="assets/images/app_development.png"
+              alt="App Development"
+            />
+  
+            <h2 id="appDevH2">App Development</h2>
+  
+            <p id="appDevP">
+              I develop mobile applications and Standalone applications. I create
+              the best applications.
+            </p>
+            </div>
+            <!-- App Development End -->
+  
+            <!-- Graphic Design -->
+  
+            <div id="serFour" class="swiper-slide">
+              <img
+              id="graphic"
+              src="assets/images/graphic_design.png"
+              alt="Graphic Design"
+            />
+  
+            <h2 id="graphicH2">Graphic Design</h2>
+  
+            <p id="graphicP">
+              I am best graphic designer. I create creative designs.
+            </p>
+            </div>
+            <!--  Graphic Design End -->
+          </section>
         </section>
-        <!-- <img
+       
+        <img
           src="assets/images/Skills_background.png"
           alt="Skills background"
-        />  -->
+        /> 
       </section>
       <!-- services End -->
 
@@ -598,6 +594,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="https://kit.fontawesome.com/4c9fb7b689.js" crossorigin="anonymous"></script>
+
     <script>
       AOS.init(); // AOS init
 
@@ -623,8 +624,76 @@
         $(".navlink").toggleClass("active");
         
       })
+  
+
+    </script>
+
+    <script >
+      // import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+      
+      /* Swiper
+      **************************************************************/
+      var swiper= Swiper;
+      var init = false;
 
 
+
+      /* Which media query
+      **************************************************************/
+      function swiperMode() {
+          let mobile = window.matchMedia('(min-width: 0px) and (max-width: 768px)');
+          let tablet = window.matchMedia('(min-width: 769px) and (max-width: 1024px)');
+          let desktop = window.matchMedia('(min-width: 1025px)');
+
+          // Enable (for mobile)
+          if(mobile.matches) {
+              if (!init) {
+                  init = true;
+                  swiper = new Swiper('.mySwiper', {
+                    effect: "coverflow",
+                    grabCursor: true,
+                    centeredSlides: true,
+                    slidesPerView: "auto",
+                    loop:true,
+                    coverflowEffect: {
+                      rotate: 0,
+                      stretch: 0,
+                      depth: 100,
+                      modifier: 2,
+                      slideShadows: true,
+                    },
+                  });
+              }
+
+          }
+
+          // Disable (for tablet)
+          else if(tablet.matches) {
+              swiper.destroy();
+              init = false;
+          }
+
+          // Disable (for desktop)
+          else if(desktop.matches) {
+              swiper.destroy();
+              init = false;
+          }
+      }
+
+      /* On Load
+      **************************************************************/
+      window.addEventListener('load', function() {
+          swiperMode();
+      });
+
+      /* On Resize
+      **************************************************************/
+      window.addEventListener('resize', function() {
+          swiperMode();
+      });
+
+      
     </script>
 
   </body>

@@ -145,3 +145,462 @@
 }
 
 /* Education End */
+
+/*Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #education {
+    height: 120vh;
+  }
+  #education > section {
+    height: 547px;
+    width: 1367px;
+    top: 275px;
+  }
+  #education > img {
+    height: 470px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 150px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 835px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 530px;
+    top: 360px;
+  }
+  #eduLine div:nth-child(1) {
+    left: 115px;
+  }
+  #eduLine div:nth-child(2) {
+    left: 800px;
+  }
+  #eduLine div:nth-child(3) {
+    left: 495px;
+    bottom: 8px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 220px;
+  }
+  #eduBox div:nth-child(2) {
+    
+    left: 910px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -40px;
+    left: 600px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 63%;
+  }
+  #eduName h2:nth-child(3) {
+    left: 925px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 370px;
+    left: 163%;
+  }
+  #eduName h3:nth-child(4) {
+    left: 1090px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 520px;
+    left: 770px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 384px;
+  }
+  
+}
+@media all and (max-width: 1200px) {
+  #education > section {
+    width: 960px;
+  }
+  #education > img {
+    height: 320px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 20px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 480px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 261px;
+    top: 360px;
+  }
+  #eduLine div:nth-child(1) {
+    left: -16px;
+  }
+  #eduLine div:nth-child(2) {
+    left: 445px;
+  }
+  #eduLine div:nth-child(3) {
+    left: 227px;
+    bottom: 8px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 80px;
+  }
+  #eduBox div:nth-child(2) {
+    
+    left: 540px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -40px;
+    left: 330px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 25%;
+  }
+  #eduName h2:nth-child(3) {
+    left: 555px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 370px;
+    left: 90%;
+  }
+  #eduName h3:nth-child(4) {
+    left: 715px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 520px;
+    left: 495px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 240px;
+  }
+
+  
+}
+@media all and (max-width: 1024px) {
+ 
+
+}
+
+@media all and (max-width: 992px) {
+  #education > section {
+    width: 960px;
+  }
+  #education > img {
+    height: 320px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 20px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 480px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 261px;
+    top: 360px;
+  }
+  #eduLine div:nth-child(1) {
+    left: -16px;
+  }
+  #eduLine div:nth-child(2) {
+    left: 445px;
+  }
+  #eduLine div:nth-child(3) {
+    left: 227px;
+    bottom: 8px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 80px;
+  }
+  #eduBox div:nth-child(2) {
+    
+    left: 540px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -40px;
+    left: 330px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 25%;
+  }
+  #eduName h2:nth-child(3) {
+    left: 555px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 370px;
+    left: 90%;
+  }
+  #eduName h3:nth-child(4) {
+    left: 715px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 520px;
+    left: 495px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 240px;
+  }
+  
+  
+
+}
+
+@media all and (max-width: 768px) {
+  #education {
+    height: 170vh;
+  }
+  #education > section {
+    width: 760px;
+  }
+  #education > img {
+    height: 245px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 152px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 152px;
+    top: 345px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 152px;
+    top: 680px;
+  }
+  #eduLine div:nth-child(1) {
+    left: 117px;
+  }
+  #eduLine div:nth-child(2) {
+    left: 117px;
+    top: 522px;
+  }
+  #eduLine div:nth-child(3) {
+    left: 117px;
+    bottom: -313px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 225px;
+  }
+  #eduBox div:nth-child(2) {
+    top: 475px;
+    left: 225px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -365px;
+    left: 225px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 65%;
+  }
+  #eduName h2:nth-child(3) {
+    left: 64%;
+    top: 415px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 695px;
+    left: 63%;
+  }
+  #eduName h3:nth-child(4) {
+    left: 397px;
+    top: 510px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 850px;
+    left: 385px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 385px;
+  }
+  
+}
+
+@media all and (max-width: 576px) {
+  #education > section {
+    width: 405px;
+  }
+  #education > img {
+    height: 150px;
+  }
+  #eduBox div {
+    width: 285px;
+  }
+  #education > h5 {
+    top: 60px;
+    font-size: 20px;
+  }
+  #education > h1 {
+    top: 70px;
+    font-size: 60px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 25px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 25px;
+    top: 345px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 25px;
+    top: 680px;
+  }
+  #eduLine div:nth-child(1) {
+    left: -10px;
+  }
+  #eduLine div:nth-child(2) {
+    left: -10px;
+    top: 522px;
+  }
+  #eduLine div:nth-child(3) {
+    left: -10px;
+    bottom: -313px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 90px;
+  }
+  #eduBox div:nth-child(2) {
+    top: 475px;
+    left: 90px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -365px;
+    left: 90px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 37%;
+    font-size: 22px;
+    top: 132px;
+  }
+  #eduName h2:nth-child(3) {
+    left: 39%;
+    top: 440px;
+    font-size: 20px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 740px;
+    left: 37%;
+    font-size: 17px;
+  }
+  #eduName h3:nth-child(4) {
+    left: 208px;
+    top: 510px;
+    font-size: 22px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 845px;
+    left: 205px;
+    font-size: 20px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 205px;
+    font-size: 22px;
+  }
+  
+ 
+
+}
+@media all and (max-width: 425px) {
+  
+}
+@media all and (max-width: 375px) {
+  #education > section {
+    width: 305px;
+  }
+  #education > img {
+    height: 105px;
+  }
+  #eduBox div {
+    width: 285px;
+  }
+  #education > h5 {
+    top: 67px;
+    font-size: 16px;
+  }
+  #education > h1 {
+    top: 77px;
+    font-size: 50px;
+  }
+  #education > section > div:nth-child(1) {
+    left: 10px;
+  }
+  #education > section > div:nth-child(2) {
+    left: 10px;
+    top: 345px;
+  }
+  #education > section > div:nth-child(3) {
+    left: 10px;
+    top: 680px;
+  }
+  #eduLine div:nth-child(1) {
+    left: -25px;
+  }
+  #eduLine div:nth-child(2) {
+    left: -25px;
+    top: 522px;
+  }
+  #eduLine div:nth-child(3) {
+    left: -25px;
+    bottom: -313px;
+  }
+
+  #eduBox div:nth-child(1) {
+    left: 70px;
+    width: 235px;
+  }
+  #eduBox div:nth-child(2) {
+    top: 475px;
+    left: 70px;
+    width: 235px;
+  }
+  #eduBox div:nth-child(3) {
+    bottom: -365px;
+    left: 70px;
+    width: 235px;
+  }
+  #eduName h2:nth-child(1) {
+    left: 36%;
+    font-size: 18px;
+    top: 132px;
+  }
+  #eduName h2:nth-child(3) {
+    left: 37%;
+    top: 445px;
+    font-size: 17px;
+    
+  }
+  #eduName h2:nth-child(5) {
+    top: 750px;
+    left: 36%;
+    font-size: 14px;
+  }
+  #eduName h3:nth-child(4) {
+    left: 170px;
+    top: 500px;
+    font-size: 18px;
+  }
+  
+  #eduName h3:nth-child(6) {
+    top: 840px;
+    left: 170px;
+    font-size: 18px;
+  }
+  #eduName h3:nth-child(2) {
+    left: 165px;
+    font-size: 18px;
+  }
+ 
+}
+@media all and (max-width: 320px) {
+  
+}
+
+/* Home Responsive Style End */

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+    </div>
+
+    <section id="btn-panel">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </section>
+
+    <audio
+      id="audio"
+      src="assets/audio/Knight Rider Sms ! Knight Rider ! Theme.mp3"
+    ></audio>
+
+    <script src="assets/lib/jQuery/jquery-3.6.4.min.js"></script>
+    <script>
+      var lightNumber = 0;
+      var direction = "RIGHT";
+      var light = $(".light");
+      var intervalID = null;
+
+      function updateLights() {
+        $(".light").css({ background: "white" });
+        light[lightNumber].style.background = "red";
+        if (lightNumber > 0) {
+          light[lightNumber - 1].style.background = "pink";
+        }
+        if (lightNumber > 6) {
+          light[lightNumber + 1].style.background = "pink";
+        }
+        if (lightNumber === 6) {
+          direction = "LEFT";
+        }
+        if (lightNumber === 0) {
+          direction = "RIGHT";
+        }
+        if (direction === "RIGHT") {
+          lightNumber++;
+        } else {
+          lightNumber--;
+        }
+      }
+
+      $("#start").on("click", () => {
+        $("#audio")[0].play();
+        intervalID = setInterval(updateLights, 80);
+      });
+
+      $("#stop").on("click", () => {
+        $("#audio")[0].pause();
+        clearInterval(intervalID);
+      });
+    </script>
+  </body>
+</html>

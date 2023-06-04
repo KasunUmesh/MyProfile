@@ -147,7 +147,7 @@
   position: absolute;
   left: 15px;
   top: 175px;
-  text-align: -webkit-center;
+  text-align: justify;
 }
 #webDevP {
   color: #ffffff;
@@ -157,7 +157,7 @@
   position: absolute;
   left: 5%;
   top: 175px;
-  text-align: -webkit-center;
+  text-align: justify;
 }
 #appDevP {
   color: #ffffff;
@@ -167,7 +167,7 @@
   position: absolute;
   right: 16px;
   top: 175px;
-  text-align: -webkit-center;
+  text-align: justify;
 }
 #graphicP {
   color: #ffffff;
@@ -177,12 +177,12 @@
   position: absolute;
   left: 15px;
   bottom: 25px;
-  text-align: -webkit-center;
+  text-align: justify;
 }
 
 /* Services End */
 
-/* Home Responsive Style Start */
+/*Responsive Style Start */
 @media all and (max-width: 1440px) {
   #services {
     height: 135vh;
@@ -200,27 +200,26 @@
   
 }
 @media all and (max-width: 1200px) {
-  #serTwo {
-    left: 35%;
-  }
-  #webDevelop {
-    left: 5%;
-  }
-  #webDevH2 {
-    left: 6%;
-  }
-  #webDevP {
-    left: 5%;
-  }
   #services >  section {
-    width: 1040px;
+    width: 1160px;
   }
+  #services > #slider > section {
+    width: 1050px;
+    left: 65px;
+}
   
   
 }
 @media all and (max-width: 1024px) {
   #services >  section {
-    width: 700px;
+    width: 911px;
+  }
+  #services > #slider > section {
+    width: 720px;
+    left: 100px;
+  }
+  #services > #slider > section > div {
+  height: 375px;
   }
   #serTwo {
     right: 0;
@@ -357,4 +356,4 @@
  
 }
 
-/* Home Responsive Style End */
+/* Responsive Style End */

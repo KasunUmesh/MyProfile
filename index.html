@@ -347,6 +347,7 @@
             </div>
             <!--  Graphic Design End -->
           </section>
+          <div class="swiper-pagination"></div>
         </section>
        
         <img
@@ -404,25 +405,28 @@
           alt="Project Background"
         />
 
-        <section>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-
-          <section id="proImg">
+        <section id="project-slider" class="swiper mySwiper">
+            <section class="card-container swiper-wrapper">
+          <div id="card" class="swiper-slide">
             <div class="imgHover">
               <img src="assets/images/Project One.png" alt="Project One" />
               <h3>Show More</h3>
               <a href=""></a>
             </div>
+            <h2 id="h1one">Institute Management System</h2>
+          </div>
 
+          <div id="card" class="swiper-slide">
             <div class="imgHover">
               <img src="assets/images/Project Two.png" alt="Project Two" />
               <h3>Show More</h3>
               <a href=""></a>
+              
             </div>
+            <h2 id="h1two">Business Management System</h2>
+          </div>
 
+          <div id="card" class="swiper-slide">
             <div class="imgHover">
               <img src="assets/images/Project Three.png" alt="Project Three" />
               <h3>Show More</h3>
@@ -432,21 +436,22 @@
                 target="_blank"
               ></a>
             </div>
+            <h2 id="h1three">Deliver Management System</h2>
+          </div>
 
+          <div id="card" class="swiper-slide">
             <div class="imgHover">
               <img src="assets/images/Project Web.png" alt="Project Web" />
               <h3>Show More</h3>
               <a class="link" href="project.html" target="_blank"></a>
             </div>
-          </section>
+            <h2 id="h1foure">All Web Developing Project</h2>
+          </div>
 
-          <section id="projectName">
-            <h2>Institute Management System</h2>
-            <h2>Business Management System</h2>
-            <h2>Deliver Management System</h2>
-            <h2>All Web Developing Project</h2>
-          </section>
         </section>
+        <div class="swiper-pagination"></div>
+        </section>
+      
       </section>
       <!-- Project Section End -->
 
@@ -652,6 +657,7 @@
                   init = true;
                   swiper = new Swiper('.mySwiper', {
                     effect: "coverflow",
+                    // allowSlideNext: false,
                     grabCursor: true,
                     centeredSlides: true,
                     slidesPerView: "auto",
@@ -662,6 +668,10 @@
                       depth: 100,
                       modifier: 2,
                       slideShadows: true,
+                    },
+                    pagination: {
+                      el: ".swiper-pagination",
+                      clickable: true,
                     },
                   });
               }

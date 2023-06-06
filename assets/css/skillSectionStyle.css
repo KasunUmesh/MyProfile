@@ -301,15 +301,22 @@ input[type="radio"] {
  
 }
 @media all and (max-width: 375px) {
+  #skills {
+    height: 800px;
+  }
+  #skills > section {
+   
+  }
   #skills > .one-card {
-    left: 20px;
+    left: 6px;
   }
   #skills > .two-card {
-    left: 20px;
+    left: -20px;
   }
   
 }
 @media all and (max-width: 320px) {
+ 
   #skills > section {
     height: 395px;
     top: 250px;

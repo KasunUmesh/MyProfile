@@ -112,3 +112,244 @@ button[type="submit"]:hover {
 }
 
 /* Contact Section End */
+
+/*Responsive Style Start */
+@media all and (max-width: 1440px) {
+  #contact .wrapper {
+    top: 80%;
+  }
+  
+}
+@media all and (max-width: 1200px) {
+  #contact > h1 {
+    font-size: 60px;
+    left: 90px;
+  }
+  #contact > h3 {
+    top: 282px;
+    font-size: 23px;
+    left: 93px;
+  }
+  #contact > p {
+    top: 365px;
+    left: 97px;
+  }
+  #contact > ul {
+    left: 57px;
+  }
+  .form-group input, .form-group textarea {
+    width: 390px;
+  }
+  #contact .wrapper {
+    left: 90px;
+  }
+  #sendMess {
+    left: 57%;
+  }
+
+}
+@media all and (max-width: 1024px) { 
+  .form-group {
+    width: 380px;
+  }
+  #contact > h1 {
+    font-size: 50px;
+    left: 45px;
+  }
+  #contact > h3 {
+    top: 265px;
+    font-size: 20px;
+    left: 50px;
+  }
+  #contact > p {
+    font-size: 20px;
+    top: 325px;
+    left: 50px;
+  }
+  #contact > ul {
+    top: 425px;
+    left: 6px;
+  }
+  #contact .wrapper {
+    top: 71%;
+    left: 40px;
+  }
+  #sendMess {
+    top: 215px;
+    left: 61%;
+  }
+  .form-group input, .form-group textarea {
+    width: 330px;
+  }
+  button[type="submit"] {
+    width: 185px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+}
+
+@media all and (max-width: 992px) {
+  
+}
+
+@media all and (max-width: 768px) {
+  #contact {
+    height: 135vh;
+  }
+  #contact > h1 {
+    left: 85px;
+    top: 95px;
+  }
+  #contact > h3 {
+    top: 165px;
+    left: 90px;
+  }
+  #contact > p {
+    top: 225px;
+    left: 90px;
+    width: 53%;
+  }
+  #contact > ul {
+    top: 325px;
+    left: 45px;
+  }
+  #contact .wrapper {
+    top: 43%;
+    left: 80px;
+  }
+  #sendMess {
+    top: 535px;
+    left: 11%;
+  }
+  .form-group input, .form-group textarea {
+    width: 465px;
+  }
+ 
+}
+
+@media all and (max-width: 576px) {
+  #contact .wrapper {
+    display: flex;
+  }
+  .wrapper .button:hover {
+    width: 55px;
+  }
+  .form-group input, .form-group textarea {
+    width: 390px;
+  }
+  #sendMess {
+    left: 15%;
+  }
+}
+@media all and (max-width: 425px) {
+  #contact > h1 {
+    left: 30px;
+  }
+  #contact > h3 {
+    left: 35px;
+  }
+  #contact > p {
+    left: 35px;
+    width: 80%;
+  }
+  #contact > ul {
+    width: 80%;
+    left: 0px;
+  }
+  .wrapper .button .icon {
+    height: 55px;
+    width: 40px;
+    border-radius: 5%;
+  }
+  .wrapper .button:hover {
+    width: 40px;
+  }
+  .wrapper .button {
+    height: 55px;
+    width: 40px;
+  }
+  #contact .wrapper {
+    left: 35px;
+  }
+  #sendMess {
+    left: 9%;
+  }
+  .form-group input, .form-group textarea {
+    width: 315px;
+  }
+ 
+ 
+}
+@media all and (max-width: 375px) {
+  #contact .wrapper {
+    left: 30px;
+  }
+  #contact > ul {
+    font-size: 23px;
+    left: 0px;
+    width: 65%;
+  }
+  #contact > p {
+    top: 225px;
+    left: 35px;
+    width: 87%;
+  }
+  #contact > h3 {
+    top: 165px;
+    left: 35px;
+    font-size: 18px;
+  }
+  #contact > h1 {
+    left: 30px;
+  }
+  .form-group input, .form-group textarea {
+    width: 280px;
+  }
+  #sendMess {
+    left: 10%;
+  }
+  .form-group {
+    width: 305px;
+  }
+ 
+}
+@media all and (max-width: 320px) {
+  #contact > h1 {
+    left: 25px;
+    font-size: 45px;
+  }
+  #contact > h3 {
+    top: 160px;
+    left: 30px;
+    font-size: 15px;
+  }
+  #contact > p {
+    font-size: 17px;
+    top: 210px;
+    left: 30px;
+  }
+  #contact > ul {
+    font-size: 20px;
+    left: -8px;
+    top: 295px;
+  }
+  .wrapper .button {
+    width: 35px;
+  }
+  #contact .wrapper {
+    top: 40%;
+  }
+  .form-group input, .form-group textarea {
+    width: 245px;
+  }
+  .form-group {
+    width: 275px;
+  }
+  #sendMess {
+    top: 510px; 
+  }
+  
+}
+
+/* Home Responsive Style End */

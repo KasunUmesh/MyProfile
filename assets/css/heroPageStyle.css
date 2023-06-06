@@ -271,7 +271,7 @@ span{
   
 .wrapper {
   display: grid;
-  top: 175px;
+  top: 260px;
   position: relative;
   width: 65px;
 }
@@ -289,7 +289,7 @@ span{
   #homeImg > img{
     width: 98%;
     left: 8px;
-    top: 205px;
+    top: 335px;
   }
   .text-box h1 {
     font-size: 35px;

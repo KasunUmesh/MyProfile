@@ -284,7 +284,7 @@ span{
 }
 @media all and (max-width: 425px) {
   main > section:nth-child(1) {
-    /* height: 100vh; */
+    height: 920px;
   }
   #homeImg > img{
     width: 98%;
@@ -301,7 +301,7 @@ span{
 }
 @media all and (max-width: 375px) {
   main > section:nth-child(1) {
-    /* height: 100vh; */
+    height: 667px;
   }
   #homeImg > img{
     width: 98%;

@@ -232,7 +232,7 @@ button[type="submit"]:hover {
   #contact .wrapper {
     display: flex;
   }
-  .wrapper .button:hover {
+  #contact .wrapper .button:hover {
     width: 55px;
   }
   .form-group input, .form-group textarea {
@@ -257,15 +257,15 @@ button[type="submit"]:hover {
     width: 80%;
     left: 0px;
   }
-  .wrapper .button .icon {
+  #contact .wrapper .button .icon {
     height: 55px;
     width: 40px;
     border-radius: 5%;
   }
-  .wrapper .button:hover {
+  #contact .wrapper .button:hover {
     width: 40px;
   }
-  .wrapper .button {
+  #contact .wrapper .button {
     height: 55px;
     width: 40px;
   }
@@ -334,7 +334,7 @@ button[type="submit"]:hover {
     left: -8px;
     top: 295px;
   }
-  .wrapper .button {
+  #contact .wrapper .button {
     width: 35px;
   }
   #contact .wrapper {

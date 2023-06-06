@@ -280,10 +280,11 @@ span{
 }
 
 
+
 }
 @media all and (max-width: 425px) {
   main > section:nth-child(1) {
-    height: 100vh;
+    /* height: 100vh; */
   }
   #homeImg > img{
     width: 98%;
@@ -296,11 +297,11 @@ span{
   .text-box {
     font-size: 13px;
   }
-
+  
 }
 @media all and (max-width: 375px) {
   main > section:nth-child(1) {
-    height: 100vh;
+    /* height: 100vh; */
   }
   #homeImg > img{
     width: 98%;
@@ -320,7 +321,7 @@ span{
 }
 @media all and (max-width: 320px) {
   main > section:nth-child(1) {
-    height: 82vh;
+    /* height: 82vh; */
   }
   #homeImg > img{
     width: 98%;

@@ -200,3 +200,37 @@ footer p {
 }
 
 /* Footer Section End */
+
+/* Footer Responsive Style End */
+@media all and (max-width: 768px) {
+  footer p {
+    font-size: 15px;
+  }
+ 
+}
+
+@media all and (max-width: 576px) {
+
+}
+@media all and (max-width: 425px) {
+  footer p {
+    font-size: 13px;
+  }
+  
+}
+@media all and (max-width: 375px) {
+  footer {
+    height: 20px;
+  }
+
+}
+@media all and (max-width: 320px) {
+  footer {
+    height: 15px;
+  }
+  footer p {
+    font-size: 11px;
+  }
+}
+
+/* Footer Responsive Style End */

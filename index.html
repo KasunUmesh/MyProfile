@@ -87,15 +87,14 @@
     <main>
       <!-- Home -->
       <section id="home">
-        <section id="homeImg" data-aos="fade-left">
-          <img src="assets\images\mainImage.jpg" alt="Main Image" />
+        <section id="homeImg">
+          <img
+            src="assets\images\mainImage.jpg"
+            alt="Main Image"
+            data-aos="fade-left"
+          />
         </section>
         <section id="homeMyName" data-aos="fade-right">
-          <!-- <<h1>Hello....!</h1>
-          <h1 id="name">I'm Kasun Umesh</h1>
-          <h1 id="change-name">Kasun Umesh</h1>
-          <h2 id="other-title">Professional Full Stack Developer</h2> -->
-
           <div class="text-box">
             <h1>I'm <span class="auto-type"></span></h1>
             <h2>Professional Full Stack Developer</h2>
@@ -176,10 +175,12 @@
 
       <!-- About Me Start -->
       <section id="about">
-        <h1>About <span>Me</span></h1>
-        <h5>Software Engineer</h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          About <span>Me</span>
+        </h1>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">Software Engineer</h5>
 
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="1500">
           Hello, I’m Kasun Umesh. I am currently an undergraduate computer
           science student. I have a strong foundation in computer science
           principles and am always looking to expand my knowledge. I am a quick
@@ -189,6 +190,7 @@
 
         <div
           class="buttonContact animate__animated animate__shakeX animate__infinite animate__slow"
+          data-aos="fade-left"
         >
           <a class="btn-1" href="#"
             ><i class="fa-sharp fa-solid fa-circle-down"></i>Download CV</a
@@ -199,7 +201,7 @@
           id="aboutImg"
           src="assets\images\About.png"
           alt="About Image"
-          data-aos="fade-up-right"
+          data-aos="fade-right"
           class="animate__animated animate__pulse animate__infinite animate__slow"
         />
 
@@ -215,13 +217,20 @@
       <!-- Skills Start -->
 
       <section id="skills">
-        <h5>What Do I Know</h5>
-        <h1><span>My</span> Skills</h1>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">What Do I Know</h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          <span>My</span> Skills
+        </h1>
 
         <input type="radio" name="dot" id="one" />
         <input type="radio" name="dot" id="two" />
 
-        <section class="one-card" id="card">
+        <section
+          class="one-card"
+          id="card"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
           <div id="divOne">
             <img src="assets/images/html5.png" alt="HTML" />
             <h2>HTML</h2>
@@ -242,7 +251,12 @@
             <h2>BOOTSTRAP</h2>
           </div>
         </section>
-        <section class="two-card" id="card">
+        <section
+          class="two-card"
+          id="card"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <div id="divfive">
             <img src="assets/images/java.png" alt="JAVA" />
             <h2>JAVA</h2>
@@ -274,13 +288,20 @@
 
       <!-- Services Start -->
       <section id="services">
-        <h5>What I Am Expert In</h5>
-        <h1><span>My</span> Services</h1>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">What I Am Expert In</h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          <span>My</span> Services
+        </h1>
 
         <section class="swiper mySwiper" id="slider">
           <section class="swiper-wrapper">
             <!-- Web Design -->
-            <div id="serOne" class="swiper-slide">
+            <div
+              id="serOne"
+              class="swiper-slide"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <img
                 id="webDesi"
                 src="assets/images/web_design.png"
@@ -297,7 +318,12 @@
             <!-- Web Design End -->
 
             <!-- Web Development -->
-            <div id="serTwo" class="swiper-slide">
+            <div
+              id="serTwo"
+              class="swiper-slide"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <img
                 id="webDevelop"
                 src="assets/images/web_Development.png"
@@ -314,7 +340,12 @@
             <!-- Web Development End -->
 
             <!-- App Development -->
-            <div id="serThree" class="swiper-slide">
+            <div
+              id="serThree"
+              class="swiper-slide"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <img
                 id="appDeve"
                 src="assets/images/app_development.png"
@@ -332,7 +363,12 @@
 
             <!-- Graphic Design -->
 
-            <div id="serFour" class="swiper-slide">
+            <div
+              id="serFour"
+              class="swiper-slide"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <img
                 id="graphic"
                 src="assets/images/graphic_design.png"
@@ -359,15 +395,19 @@
 
       <!-- Education Start -->
       <section id="education">
-        <h5>Educational Qualification</h5>
-        <h1><span>E</span>ducation</h1>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">
+          Educational Qualification
+        </h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          <span>E</span>ducation
+        </h1>
 
         <img
           src="assets/images/Education_Background.svg"
           alt="Education Background"
         />
 
-        <section>
+        <section data-aos="zoom-in-up" data-aos-duration="1500">
           <div><i class="fa-solid fa-graduation-cap"></i></div>
           <div><i class="fa-solid fa-graduation-cap"></i></div>
           <div><i class="fa-solid fa-graduation-cap"></i></div>
@@ -398,8 +438,10 @@
 
       <!-- Project Section Start -->
       <section id="project">
-        <h5>Portfolio</h5>
-        <h1><span>My</span> Project</h1>
+        <h5 data-aos="zoom-in" data-aos-duration="1500">Portfolio</h5>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          <span>My</span> Project
+        </h1>
         <img
           src="assets/images/Project_Background.svg"
           alt="Project Background"
@@ -407,7 +449,12 @@
 
         <section id="project-slider" class="swiper mySwiper">
           <section class="card-container swiper-wrapper">
-            <div id="card" class="swiper-slide">
+            <div
+              id="card"
+              class="swiper-slide"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div class="imgHover">
                 <img src="assets/images/Project One.png" alt="Project One" />
                 <h3>Show More</h3>
@@ -416,7 +463,12 @@
               <h2 id="h1one">Institute Management System</h2>
             </div>
 
-            <div id="card" class="swiper-slide">
+            <div
+              id="card"
+              class="swiper-slide"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div class="imgHover">
                 <img src="assets/images/Project Two.png" alt="Project Two" />
                 <h3>Show More</h3>
@@ -425,7 +477,12 @@
               <h2 id="h1two">Business Management System</h2>
             </div>
 
-            <div id="card" class="swiper-slide">
+            <div
+              id="card"
+              class="swiper-slide"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div class="imgHover">
                 <img
                   src="assets/images/Project Three.png"
@@ -441,7 +498,12 @@
               <h2 id="h1three">Deliver Management System</h2>
             </div>
 
-            <div id="card" class="swiper-slide">
+            <div
+              id="card"
+              class="swiper-slide"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div class="imgHover">
                 <img src="assets/images/Project Web.png" alt="Project Web" />
                 <h3>Show More</h3>
@@ -457,15 +519,19 @@
 
       <!-- Contact Section Start -->
       <section id="contact">
-        <h1>Contact <span>Me</span></h1>
-        <h3>If You Have Any Project In Your Mind</h3>
+        <h1 data-aos="zoom-in" data-aos-duration="1100">
+          Contact <span>Me</span>
+        </h1>
+        <h3 data-aos="zoom-in" data-aos-duration="1100">
+          If You Have Any Project In Your Mind
+        </h3>
 
-        <p>
+        <p data-aos="zoom-in" data-aos-duration="1100">
           I'm a software engineer - contact us to create the highest quality
           software according to your needs.
         </p>
 
-        <ul>
+        <ul data-aos="zoom-in" data-aos-duration="1100">
           <li><a href="tel:770313314">+94 770 313 314</a></li>
           <li><a href="tel:757015240">+94 75 7015 240</a></li>
           <li>
@@ -475,7 +541,7 @@
 
         <!-- Social Media Start -->
 
-        <section class="wrapper">
+        <section class="wrapper" data-aos="zoom-in" data-aos-duration="1100">
           <a
             class="link"
             href="https://www.facebook.com/wakasun.kasun.1/"
@@ -540,7 +606,7 @@
         <!-- Social Media End -->
 
         <!-- Message Sent Section Start -->
-        <section id="sendMess">
+        <section id="sendMess" data-aos="zoom-in" data-aos-duration="1100">
           <form action="">
             <div class="form-group">
               <input

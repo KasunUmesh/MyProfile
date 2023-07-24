@@ -607,7 +607,7 @@
 
         <!-- Message Sent Section Start -->
         <section id="sendMess" data-aos="zoom-in" data-aos-duration="1100">
-          <form action="">
+          <form>
             <div class="form-group">
               <input
                 type="text"
@@ -639,6 +639,7 @@
             <button
               type="submit"
               class="animate__animated animate__pulse animate__infinite animate__fast"
+              onclick="sendMail();"
             >
               <i
                 class="fa-solid fa-paper-plane"
@@ -672,6 +673,18 @@
       src="https://kit.fontawesome.com/4c9fb7b689.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Emailjs -->
+    <script src="assets/Js/email.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("tAwarckxvZN7U2OGV");
+      })();
+    </script>
 
     <script>
       AOS.init(); // AOS init

@@ -257,6 +257,9 @@ input[type="radio"] {
  
 }
 @media all and (max-width: 425px) {
+  #skills {
+    height: 770px;
+  }
   #skills > h5 {
     font-size: 20px;
   }

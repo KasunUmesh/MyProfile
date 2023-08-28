@@ -260,7 +260,7 @@ span{
 
 @media only screen and (max-width: 576px) {
   main > section:nth-child(1) {
-    height: 100vh;
+    height: 100%;
     flex-direction: inherit;
   }
   #homeImg {
@@ -294,7 +294,7 @@ span{
 }
 @media only screen and (max-width: 425px) {
   main > section:nth-child(1) {
-    height: 100vh;
+    height: 100%;
   }
 
   #homeImg {
@@ -307,7 +307,7 @@ span{
   }
 
   .wrapper {
-    top: 200px;
+    top: 140px;
   }
 
   .text-box h1 {
@@ -327,7 +327,7 @@ span{
     font-size: 11px;
   }
   .wrapper {
-    top: 150px;
+    top: 120px;
   }
 
 }

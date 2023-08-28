@@ -319,6 +319,9 @@ opacity: 1;
 
 }
 @media all and (max-width: 425px) {
+   #project {
+    height: 800px;
+  }
   #project > #project-slider > section {
     grid-column-gap: auto;
     left: -110px;
@@ -341,9 +344,7 @@ opacity: 1;
   
 }
 @media all and (max-width: 375px) {
-  /* #project {
-    height: 95vh;
-  } */
+ 
   #project > #project-slider {
     top: -90px;
   }

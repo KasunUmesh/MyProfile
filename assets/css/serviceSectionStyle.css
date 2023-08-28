@@ -293,6 +293,9 @@
 
 }
 @media all and (max-width: 425px) {
+  #services {
+    height: 800px;
+  }
   #services > h5 {
     top: 60px;
     font-size: 20px;

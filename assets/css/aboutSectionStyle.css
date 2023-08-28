@@ -234,7 +234,7 @@
 
 @media all and (max-width: 576px) {
   #about {
-    height: 160vh;
+    height: 1250px;
   }
   #aboutImg{
     left: 65px;
@@ -268,7 +268,7 @@
 }
 @media all and (max-width: 425px) {
   #about {
-    height: 150vh;
+    height: 1130px;
   }
   #aboutImg{
     left: 35px;
@@ -298,9 +298,7 @@
 
 }
 @media all and (max-width: 375px) {
-  #about {
-    height: 160vh;
-  }
+ 
   #aboutImg{
     left: 25px;
     height: 450px;
@@ -331,9 +329,7 @@
  
 }
 @media all and (max-width: 320px) {
-  #about {
-    height: 140vh;
-  }
+ 
   #aboutImg{
     left: 15px;
     height: 400px;

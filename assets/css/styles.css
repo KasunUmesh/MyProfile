@@ -34,14 +34,14 @@ header > nav {
 }
 
 header >nav> a > img {
-  /* position: absolute; */
- width: 110px;
- /* top: -27px; */
+ position: relative;
+ width: 75px;
+ top: 10px;
  cursor: pointer;
  padding: 0px 0px;
  line-height: 73px;
  margin-top: -5px;
- /* align-items: center; */
+ left: 30px;
 }
 
 .hamburger {

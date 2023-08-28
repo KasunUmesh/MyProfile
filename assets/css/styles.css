@@ -107,21 +107,21 @@ display: none;
 /* Header End */
 
 /* Home Responsive Style Start */
-@media all and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   header > nav > ul > li > a {
     padding: 10px 7px;
   }
   
 }
 
-@media all and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   header > nav > ul > li > a {
     padding: 6px 4px;
   }
 
 }
 
-@media all and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hamburger {
     display: block;
     cursor: pointer;
@@ -168,7 +168,7 @@ display: none;
 
 }
 
-@media all and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
 
   header > nav > ul {
     width: 100vw;
@@ -202,29 +202,29 @@ footer p {
 /* Footer Section End */
 
 /* Footer Responsive Style End */
-@media all and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   footer p {
     font-size: 15px;
   }
  
 }
 
-@media all and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
 
 }
-@media all and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
   footer p {
     font-size: 13px;
   }
   
 }
-@media all and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   footer {
     height: 20px;
   }
 
 }
-@media all and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   footer {
     height: 15px;
   }

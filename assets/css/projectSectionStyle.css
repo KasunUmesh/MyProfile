@@ -341,16 +341,18 @@ opacity: 1;
   
 }
 @media all and (max-width: 375px) {
-  #project {
+  /* #project {
     height: 95vh;
-  }
+  } */
   #project > #project-slider {
     top: -90px;
   }
   #project > #project-slider > section {
     left: -145px;
     grid-column-gap: 59px;
+    top: 170px;
   }
+
   #project > h5 {
     font-size: 20px;
   }

@@ -515,6 +515,9 @@
   
 }
 @media all and (max-width: 375px) {
+  #education {
+    height: 190vh;
+  }
   #education > section {
     width: 305px;
   }

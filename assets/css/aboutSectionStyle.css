@@ -5,39 +5,51 @@
   background-color: #000a12;
   display: flex;
   position: relative;
-  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
   /* border: 1px solid red; */
  
 }
 
-#about > h1 {
+#about > div:nth-child(1) {
+  /* border: 1px solid green; */
+  width: 40%;
+}
+#about > div:nth-child(2) {
+  /* border: 1px solid blue; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#about > div > h1 {
   position: absolute;
   font-size: 65px;
   font-family: 'Roboto', sans-serif;
   top: 70px;
   color: #ffffff;
 }
-#about > h5{
+#about > div > h5{
   position: absolute;
   color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   font-size: 27px;
   top: 140px;
-  left: 42.1%;
   color: #ffffff;
 }
 
-#about > p {
+#about > div > p {
   color: #ffffff;
   position: absolute;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  right: 240px;
   margin: auto;
   top: 240px;
   width: 865px;
+  text-align: justify;
 }
 
 #aboutImg {
@@ -58,13 +70,14 @@
 
 .buttonContact{
 
-  /* width: 180px; */
+  width: 265px;
   height: 55px;
   align-items: center;
   display: flex;
   justify-content: center;
+  align-self: end;
   top: 400px;
-  left: 30%;
+  right: 230px;
   position: relative;
   z-index: 1;
  
@@ -107,62 +120,46 @@
   #aboutImg{
     left: 64px;
     top: 100px;
-
+    height: 500px;
   }
-  #about > p {
-    right: 121px;
-    width: 752px;
-
-  }
-  #about > h5 {
-    left: 39.3%;
+  #about > div > p {
+    width: 690px;
+    font-size: 23px;
   }
   .buttonContact{
-    left: 33%;
+    right: 15%;
     
   }
   #about-two {
     height: 420px;
+    right: 0;
   }
   
 }
 @media all and (max-width: 1200px) {
-  #about > h1{
+  #about > div > h1{
     font-size: 60px;
   }
-  #aboutImg{
-    left: 40px;
-    height: 580px;
-    top: 145px;
-  }
-  #about > p {
-    right: 13px;
-    width: 730px;
-    font-size: 23px;
+  #about > div > p {
+    width: 580px;
+    font-size: 21px;
 
-  }
-  #about > h5 {
-    left: 38.4%;
   }
   
 }
 @media all and (max-width: 1024px) {
-  #about > h1{
+  #about > div > h1{
     font-size: 60px;
   }
   #aboutImg{
-    left: 25px;
-    height: 480px;
-    top: 168px;
+    top: 170px;
+    left: 40px;
   }
-  #about > p {
-    right: 13px;
-    width: 645px;
-    font-size: 23px;
+  #about > div > p {
+    
+    width: 520px;
+    font-size: 21px;
 
-  }
-  #about > h5 {
-    left: 36.1%;
   }
 
 }
@@ -172,22 +169,18 @@
     height: 90vh;
   }
   #aboutImg{
-    left: 15px;
-    height: 500px;
+    height: 370px;
   }
-  #about > p {
-    right: 24px;
-    width: 610px;
-    font-size: 20px;
+  #about > div > p {
+    width: 430px;
+    font-size: 18px;
 
   }
-  #about > h5 {
-    left: 35.9%;
+  #about > div > h5 {
     font-size: 25px;
   }
   .buttonContact{
-    left: 33%;
-    
+    right: 20%;
   }
   #about-two {
     height: 300px;
@@ -199,27 +192,37 @@
 @media all and (max-width: 768px) {
   #about {
     height: 145vh;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #about > div:nth-child(1) {
+    width: 80vw;
+    height: 50%;
+  }
+  #about > div:nth-child(2) {
+    width: 80vw;
+    height: 50%;
   }
   #aboutImg{
-    left: 160px;
-    height: 610px;
-    top: 480px;
+    left: 180px;
+    height: 545px;
+    top: 530px;
   }
-  #about > h1 {
+  #about > div > h1 {
     left: 50px;
   }
-  #about > p {
+  #about > div > p {
     left: 46px;
-    width: 700px;
+    width: 670px;
     font-size: 23px;
 
   }
-  #about > h5 {
+  #about > div > h5 {
     left: 6.3%;
     font-size: 25px;
   }
   .buttonContact{
-    left: 28%;
+    right: 0;
     
   }
   #about-two {
@@ -238,23 +241,22 @@
     height: 610px;
     top: 580px;
   }
-  #about > h1 {
+  #about > div > h1 {
     left: 50px;
     font-size: 70px;
   }
-  #about > p {
+  #about > div > p {
     left: 46px;
-    width: 500px;
-    font-size: 24px;
+    width: 480px;
+    font-size: 22px;
 
   }
-  #about > h5 {
+  #about > div > h5 {
     left: 8.3%;
     font-size: 30px;
   }
   .buttonContact{
-    left: 20%;
-    top: 480px;
+    top: 440px;
     
   }
   #about-two {
@@ -266,27 +268,25 @@
 }
 @media all and (max-width: 425px) {
   #about {
-    height: 155vh;
+    height: 150vh;
   }
   #aboutImg{
     left: 35px;
-    height: 500px;
+    height: 430px;
     top: 600px;
   }
-  #about > p {
-    left: 36px;
-    width: 340px;
+  #about > div > p {
+    width: 325px;
     font-size: 20px;
     text-align: justify;
     top: 255px;
 
   }
-  #about > h5 {
-    left: 11.3%;
+  #about > div > h5 {
+    left: 12.3%;
     
   }
   .buttonContact{
-    left: 12%;
     top: 500px;
     
   }
@@ -306,24 +306,21 @@
     height: 450px;
     
   }
-  #about > h1 {
-    left: 30px;
+  #about > div > h1 {
     font-size: 55px;
   }
-  #about > p {
-    left: 25px;
-    width: 331px;
+  #about > div > p {
+    width: 300px;
     top: 230px;
+    font-size: 21px;
 
   }
-  #about > h5 {
-    left: 7.3%;
+  #about > div > h5 {
     font-size: 25px;
     top: 125px;
     
   }
   .buttonContact{
-    left: 10%;
     top: 500px;
     
   }
@@ -343,20 +340,17 @@
     
   }
   
-  #about > p {
-    width: 280px;
-    top: 225px;
-
+  #about > div > p {
+    width: 250px;
+    top: 215px;
+    left: 11%;
+    font-size: 20px;
   }
-  #about > h5 {
-    left: 8.3%;
-    
-    
+  #about > div > h1 {
+    left: 12%;
   }
   .buttonContact{
     left: 5%;
-    
-    
   }
   #about-two {
     height: 200px;

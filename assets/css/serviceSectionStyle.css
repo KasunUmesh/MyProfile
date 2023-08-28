@@ -147,7 +147,7 @@
   position: absolute;
   left: 15px;
   top: 175px;
-  text-align: justify;
+  text-align: center;
 }
 #webDevP {
   color: #ffffff;
@@ -157,7 +157,7 @@
   position: absolute;
   left: 5%;
   top: 175px;
-  text-align: justify;
+  text-align: center;
 }
 #appDevP {
   color: #ffffff;
@@ -167,7 +167,7 @@
   position: absolute;
   right: 16px;
   top: 175px;
-  text-align: justify;
+  text-align: center;
 }
 #graphicP {
   color: #ffffff;
@@ -177,7 +177,7 @@
   position: absolute;
   left: 15px;
   bottom: 25px;
-  text-align: justify;
+  text-align: center;
 }
 
 /* Services End */
@@ -191,8 +191,8 @@
     width: 1310px;
   }
   #services > #slider > section {
-    width: 1140px;
-    left: 90px;
+    width: 1065px;
+    left: 80px;
   }
   #serTwo {
     left: 36%;
@@ -244,6 +244,9 @@
 }
 
 @media all and (max-width: 768px) {
+  #services {
+    height: 100vh;
+  }
   #services > section {
     width: 780px;
   }
@@ -255,13 +258,12 @@
     justify-content: center;
     align-items: center;
     left: 210px;
+    top: 80px;
   }
   #services > #slider > section > div {
-  
     position: relative;
     display: flex;
     margin-right: 95px;
-    height: 500px;
     width: 370px;
   }
   #services > img {
@@ -269,6 +271,10 @@
     height: 550px;
   }
   
+  #services > #slider > section > div > p{
+    font-size: 28px;
+    left: 35px;
+  }
 
 }
 
@@ -310,14 +316,20 @@
     width: 340px;
     height: 350px;
   }
+  #services > #slider > section > div > p{
+    font-size: 25px;
+    left: 17px;
+  }
  
 }
 @media all and (max-width: 375px) {
+
   #services > section {
     width: 430px;
   }
   #services > #slider > section {
     left: 5px;
+    top: 20px;
   }
   #services > #slider > section > div {
     height: 400px;
@@ -326,6 +338,16 @@
   #services > img {
     width: 300px;
     height: 300px;
+  }
+  #services > #slider > section > div > p{
+    font-size: 20px;
+    left: 7px;
+    top: 48%;
+  }
+
+  #services > #slider > section > div > h2 {
+    font-size: 28px;
+    top: 90px;
   }
   
   
@@ -352,6 +374,17 @@
   #services > img {
     width: 243px;
     height: 245px;
+  }
+  #services > #slider > section > div > img {
+    right: 160px;
+  }
+  #services > #slider > section > div > h2 {
+    font-size: 25px;
+  }
+  #services > #slider > section > div > p {
+    width: 240px;
+    font-size: 20px;
+    left: 11px;
   }
  
 }

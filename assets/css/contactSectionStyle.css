@@ -243,6 +243,9 @@ button[type="submit"]:hover {
   }
 }
 @media all and (max-width: 425px) {
+  #contact {
+    height: 145vh;
+  }
   #contact > h1 {
     left: 30px;
   }
@@ -282,6 +285,9 @@ button[type="submit"]:hover {
  
 }
 @media all and (max-width: 375px) {
+  #contact {
+    height: 155vh;
+}
   #contact .wrapper {
     left: 30px;
   }
@@ -308,6 +314,7 @@ button[type="submit"]:hover {
   }
   #sendMess {
     left: 10%;
+    
   }
   .form-group {
     width: 305px;

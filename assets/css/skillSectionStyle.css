@@ -155,12 +155,22 @@ input[type="radio"] {
     top: 55px;
   }
   #skills > section {
-    width: 1085px;
+    width: 870px;
     height: 510px;
     top: 220px;
   }
   #skills > section > div {
-    height: 230px;
+    height: 220px;
+    width: 180px;
+  }
+  #skills > section > div > img {
+    height: 80px;
+  }
+  #divTwo img {
+    left: 50px; 
+  }
+  #skills > section > div > h2 {
+    font-size: 25px;
   }
   
 }
@@ -177,12 +187,12 @@ input[type="radio"] {
     margin-left: -100%;
   }
   #skills > .one-card {
-    left: 130px;
-
+    left: 25%;
+    width: 110%;
   }
   #skills > .two-card {
-    left: 130px;
-
+    left: 65%;
+    width: 110%;
   }
   
   #skills > .button {
@@ -227,21 +237,22 @@ input[type="radio"] {
 
 @media all and (max-width: 768px) {
   #skills > .one-card {
-    left: 70px;
+    left: 22%;
   }
   #skills > .two-card {
-    left: 70px;
+    left: 56%;
+    width: 120%;
   }
- 
-
 }
 
 @media all and (max-width: 576px) {
   #skills > .one-card {
-    left: 30px;
+    left: 11%;
+    width: 160%;
   }
   #skills > .two-card {
-    left: 30px;
+    left: 10%;
+    width: 180%;
   }
  
 }
@@ -297,20 +308,29 @@ input[type="radio"] {
     top: 40px;
     font-size: 20px;
   }
+  #skills > section > div > img {
+    height: 55px;
+  }
+  #skills > .one-card {
+    left: 10%;
+    width: 160%;
+}
+#skills > .two-card {
+  left: 3%;
+  width: 190%;
+}
+  
  
 }
 @media all and (max-width: 375px) {
   #skills {
     height: 800px;
   }
-  #skills > section {
-   
-  }
   #skills > .one-card {
-    left: 6px;
+    left: 7%;
   }
   #skills > .two-card {
-    left: -20px;
+    left: 2%;
   }
   
 }
